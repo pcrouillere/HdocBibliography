@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir=".." name="main" default="convert">
     <property name="InputPath" value="C:\\Users\\Pauline\\Documents\\UTC\\GI05 - A14\\NF29\\Projet\\Projet - Bibtex-BibtexXml\\bib2.bib"></property>
-    <property name="OutputPath" value="${basedir}\result\out"></property>
+    <property name="OutputPath" value="${basedir}\result"></property>
     
     <target name="preparation">
         <delete dir="${basedir}/result"></delete>
@@ -36,8 +36,10 @@
             out="${basedir}/tmp/tempHdoc.xml" 
             xslresource="${basedir}/XSL/SeparateXmlt.xsl">
             <param name="in" expression="${basedir}\tmp\tmpHdocBib.xml"></param>
+            <param name="out" expression="${OutputPath}"></param>
         </xslt>
         <ant antfile="${basedir}/tmp/tempHdoc.xml"/>
+        <delete dir="${basedir}/tmp"></delete>
     </target>
     
     
