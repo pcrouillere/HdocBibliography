@@ -4,6 +4,7 @@
     xmlns:op="utc.fr:ics/opale3">
     <xsl:output encoding="UTF-8" method="xml" indent="yes"/>
     <xsl:param name="in"/>
+    <xsl:param name="out"/>
     <xsl:template match="bib:file">
         <project basedir=".." name="ref"> 
             <xsl:apply-templates select="bib:entry"></xsl:apply-templates>
@@ -12,7 +13,7 @@
     <xsl:template match="bib:entry">
         <xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl">
             <xsl:attribute name="in"><xsl:value-of select="$in"/></xsl:attribute>
-            <xsl:attribute name="out">./result/<xsl:value-of select="./@id"/>.ref</xsl:attribute>
+            <xsl:attribute name="out"><xsl:value-of select="$out"/>/<xsl:value-of select="./@id"/>.ref</xsl:attribute>
             <param name="Position">
                 <xsl:attribute name="expression"><xsl:value-of select="count(preceding-sibling::bib:entry) + 1"/></xsl:attribute>
             </param>
