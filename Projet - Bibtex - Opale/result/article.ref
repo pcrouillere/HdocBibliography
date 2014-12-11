@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
+<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<op:bibM>
+<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">article</sp:id>
+<sp:type>bib</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para xml:space="preserve">
+                                 <sc:textLeaf role="auth">Adams, Peter</sc:textLeaf>
+                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
+                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
+                                 
+                                 
+                                 
+                                  
+                                 
+                                  
+                                 
+        Journal : The name of the journal 
+                                   
+                                 
+        Volume : 4  
+                                 
+        Volume : 2  
+                                 
+                                 
+        Pages : 201-213 
+                                  
+                                 
+                                                                
+                                  
+                                 
+        Note : An optional note     
+                             </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item>

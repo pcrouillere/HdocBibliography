@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<file xmlns="http://bibtexml.sf.net/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:date>2014-12-10T23:08:54+0100</dc:date>
+    <dc:format>text/xml</dc:format>
+    <dc:identifier>urn:uuid:fee11b30-93d4-403e-8a73-e3ab7c329ca4</dc:identifier>
+  </metadata>
+  <entry id="article">
+    <article>
+      <author>Adams, Peter</author>
+      <title>The title of the work</title>
+      <journal>The name of the journal</journal>
+      <year>1993</year>
+      <number>2</number>
+      <pages>201-213</pages>
+      <month>7</month>
+      <note>An optional note</note>
+      <volume>4</volume>
+    </article>
+  </entry>
+  <entry id="book">
+    <book>
+      <author>Babington, Peter</author>
+      <title>The title of the work</title>
+      <publisher>The name of the publisher</publisher>
+      <year>1993</year>
+      <volume>4</volume>
+      <series>10</series>
+      <address>The address</address>
+      <edition>3</edition>
+      <month>7</month>
+      <note>An optional note</note>
+      <isbn>3257227892</isbn>
+    </book>
+  </entry>
+  <entry id="booklet">
+    <booklet>
+      <title>The title of the work</title>
+      <author>Caxton, Peter</author>
+      <howpublished>How it was published</howpublished>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <year>1993</year>
+      <note>An optional note</note>
+    </booklet>
+  </entry>
+  <entry id="conference">
+    <conference>
+      <author>Draper, Peter</author>
+      <title>The title of the work</title>
+      <booktitle>The title of the book</booktitle>
+      <year>1993</year>
+      <editor>editor, The</editor>
+      <volume>4</volume>
+      <series>5</series>
+      <pages>213</pages>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <organization>The organization</organization>
+      <publisher>The publisher</publisher>
+      <note>An optional note</note>
+    </conference>
+  </entry>
+  <entry id="inbook">
+    <inbook>
+      <author>Eston, Peter</author>
+      <title>The title of the work</title>
+      <chapter>8</chapter>
+      <pages>201-213</pages>
+      <publisher>The name of the publisher</publisher>
+      <year>1993</year>
+      <volume>4</volume>
+      <series>5</series>
+      <address>The address of the publisher</address>
+      <edition>3</edition>
+      <month>7</month>
+      <note>An optional note</note>
+    </inbook>
+  </entry>
+  <entry id="incollection">
+    <incollection>
+      <author>Farindon, Peter</author>
+      <title>The title of the work</title>
+      <booktitle>The title of the book</booktitle>
+      <publisher>The name of the publisher</publisher>
+      <year>1993</year>
+      <editor>editor, The</editor>
+      <volume>4</volume>
+      <series>5</series>
+      <chapter>8</chapter>
+      <pages>201-213</pages>
+      <address>The address of the publisher</address>
+      <edition>3</edition>
+      <month>7</month>
+      <note>An optional note</note>
+    </incollection>
+  </entry>
+  <entry id="manual">
+    <manual>
+      <title>The title of the work</title>
+      <author>Gainsford, Peter</author>
+      <organization>The organization</organization>
+      <address>The address of the publisher</address>
+      <edition>3</edition>
+      <month>7</month>
+      <year>1993</year>
+      <note>An optional note</note>
+    </manual>
+  </entry>
+  <entry id="mastersthesis">
+    <mastersthesis>
+      <author>Harwood, Peter</author>
+      <title>The title of the work</title>
+      <school>The school where the thesis was written</school>
+      <year>1993</year>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <note>An optional note</note>
+    </mastersthesis>
+  </entry>
+  <entry id="misc">
+    <misc>
+      <author>Isley, Peter</author>
+      <title>The title of the work</title>
+      <howpublished>How it was published</howpublished>
+      <month>7</month>
+      <year>1993</year>
+      <note>An optional note</note>
+    </misc>
+  </entry>
+  <entry id="phdthesis">
+    <phdthesis>
+      <author>Joslin, Peter</author>
+      <title>The title of the work</title>
+      <school>The school where the thesis was written</school>
+      <year>1993</year>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <note>An optional note</note>
+    </phdthesis>
+  </entry>
+  <entry id="proceedings">
+    <proceedings>
+      <title>The title of the work</title>
+      <year>1993</year>
+      <editor>Kidwelly, Peter</editor>
+      <volume>4</volume>
+      <series>5</series>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <organization>The organization</organization>
+      <publisher>The name of the publisher</publisher>
+      <note>An optional note</note>
+    </proceedings>
+  </entry>
+  <entry id="techreport">
+    <techreport>
+      <author>Lambert, Peter</author>
+      <title>The title of the work</title>
+      <institution>The institution that published</institution>
+      <year>1993</year>
+      <number>2</number>
+      <address>The address of the publisher</address>
+      <month>7</month>
+      <note>An optional note</note>
+    </techreport>
+  </entry>
+  <entry id="unpublished">
+    <unpublished>
+      <author>Marcheford, Peter</author>
+      <title>The title of the work</title>
+      <note>An optional note</note>
+      <month>7</month>
+      <year>1993</year>
+    </unpublished>
+  </entry>
+</file>
+

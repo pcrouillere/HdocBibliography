@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
+<dk:bib xmlns:dk="kelis.fr:dokiel" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+<dk:bibM>
+<sp:id>incollection</sp:id>
+<sp:desc>
+<dk:docTxt>
+<sc:para xml:space="preserve">
+                                     <sc:textLeaf role="auth">Farindon, Peter</sc:textLeaf>
+                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
+                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
+                                 <sc:textLeaf role="title">The title of the book</sc:textLeaf>
+                                 <sc:textLeaf role="ed">editor, The</sc:textLeaf>
+                                 <sc:textLeaf role="ed">The name of the publisher</sc:textLeaf>
+                                  The address of the publisher
+                                 
+        Edition : 3
+                                  
+                                  
+                                  
+        Series : 5 
+                                 
+        Volume : 4  
+                                   
+                                 8
+                                 
+        Pages : 201-213 
+                                  
+                                 
+                                                                
+                                  
+                                 
+        Note : An optional note     
+                                 </sc:para>
+</dk:docTxt>
+</sp:desc>
+</dk:bibM>
+</dk:bib>
+</sc:item>

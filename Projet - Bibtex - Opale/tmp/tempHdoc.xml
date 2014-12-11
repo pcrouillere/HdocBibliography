@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:op="utc.fr:ics/opale3" basedir=".." name="ref">
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/article.ref">
+<param name="Position" expression="1"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/book.ref">
+<param name="Position" expression="2"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/booklet.ref">
+<param name="Position" expression="3"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/conference.ref">
+<param name="Position" expression="4"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/inbook.ref">
+<param name="Position" expression="5"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/incollection.ref">
+<param name="Position" expression="6"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/manual.ref">
+<param name="Position" expression="7"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/mastersthesis.ref">
+<param name="Position" expression="8"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/misc.ref">
+<param name="Position" expression="9"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/phdthesis.ref">
+<param name="Position" expression="10"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/proceedings.ref">
+<param name="Position" expression="11"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/techreport.ref">
+<param name="Position" expression="12"/>
+</xslt>
+<xslt xslresource="./XSL/OneBibXMLToOpaleXml.xsl" in="C:\Users\Pauline\Documents\UTC\GI05 - A14\NF29\Projet\Projet - Bibtex - Opale\tmp\tmpHdocBib.xml" out="./result/unpublished.ref">
+<param name="Position" expression="13"/>
+</xslt>
+</project>

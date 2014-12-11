@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><myns:file xmlns:myns="http://www.utc.fr/ics/hdoc/bibtexXm">
+  <myns:note type_of="metadata">
+    2014-12-10T23:08:54+0100
+    text/xml
+    urn:uuid:fee11b30-93d4-403e-8a73-e3ab7c329ca4
+  </myns:note>
+  <myns:entry id="article">
+    <myns:article>
+      <myns:author>Adams, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:journal>The name of the journal</myns:journal>
+      <myns:year>1993</myns:year>
+      <myns:number>2</myns:number>
+      <myns:pages>201-213</myns:pages>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+      <myns:volume>4</myns:volume>
+    </myns:article>
+  </myns:entry>
+  <myns:entry id="book">
+    <myns:book>
+      <myns:author>Babington, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:publisher>The name of the publisher</myns:publisher>
+      <myns:year>1993</myns:year>
+      <myns:volume>4</myns:volume>
+      <myns:series>10</myns:series>
+      <myns:address>The address</myns:address>
+      <myns:edition>3</myns:edition>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+      <myns:note type_of="isbn">3257227892</myns:note>
+    </myns:book>
+  </myns:entry>
+  <myns:entry id="booklet">
+    <myns:booklet>
+      <myns:title>The title of the work</myns:title>
+      <myns:author>Caxton, Peter</myns:author>
+      <myns:howpublished>How it was published</myns:howpublished>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:year>1993</myns:year>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:booklet>
+  </myns:entry>
+  <myns:entry id="conference">
+    <myns:conference>
+      <myns:author>Draper, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:booktitle>The title of the book</myns:booktitle>
+      <myns:year>1993</myns:year>
+      <myns:editor>editor, The</myns:editor>
+      <myns:volume>4</myns:volume>
+      <myns:series>5</myns:series>
+      <myns:pages>213</myns:pages>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:organization>The organization</myns:organization>
+      <myns:publisher>The publisher</myns:publisher>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:conference>
+  </myns:entry>
+  <myns:entry id="inbook">
+    <myns:inbook>
+      <myns:author>Eston, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:chapter>8</myns:chapter>
+      <myns:pages>201-213</myns:pages>
+      <myns:publisher>The name of the publisher</myns:publisher>
+      <myns:year>1993</myns:year>
+      <myns:volume>4</myns:volume>
+      <myns:series>5</myns:series>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:edition>3</myns:edition>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:inbook>
+  </myns:entry>
+  <myns:entry id="incollection">
+    <myns:incollection>
+      <myns:author>Farindon, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:booktitle>The title of the book</myns:booktitle>
+      <myns:publisher>The name of the publisher</myns:publisher>
+      <myns:year>1993</myns:year>
+      <myns:editor>editor, The</myns:editor>
+      <myns:volume>4</myns:volume>
+      <myns:series>5</myns:series>
+      <myns:chapter>8</myns:chapter>
+      <myns:pages>201-213</myns:pages>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:edition>3</myns:edition>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:incollection>
+  </myns:entry>
+  <myns:entry id="manual">
+    <myns:manual>
+      <myns:title>The title of the work</myns:title>
+      <myns:author>Gainsford, Peter</myns:author>
+      <myns:organization>The organization</myns:organization>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:edition>3</myns:edition>
+      <myns:month>7</myns:month>
+      <myns:year>1993</myns:year>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:manual>
+  </myns:entry>
+  <myns:entry id="mastersthesis">
+    <myns:mastersthesis>
+      <myns:author>Harwood, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:school>The school where the thesis was written</myns:school>
+      <myns:year>1993</myns:year>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:mastersthesis>
+  </myns:entry>
+  <myns:entry id="misc">
+    <myns:misc>
+      <myns:author>Isley, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:howpublished>How it was published</myns:howpublished>
+      <myns:month>7</myns:month>
+      <myns:year>1993</myns:year>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:misc>
+  </myns:entry>
+  <myns:entry id="phdthesis">
+    <myns:phdthesis>
+      <myns:author>Joslin, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:school>The school where the thesis was written</myns:school>
+      <myns:year>1993</myns:year>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:phdthesis>
+  </myns:entry>
+  <myns:entry id="proceedings">
+    <myns:proceedings>
+      <myns:title>The title of the work</myns:title>
+      <myns:year>1993</myns:year>
+      <myns:editor>Kidwelly, Peter</myns:editor>
+      <myns:volume>4</myns:volume>
+      <myns:series>5</myns:series>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:organization>The organization</myns:organization>
+      <myns:publisher>The name of the publisher</myns:publisher>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:proceedings>
+  </myns:entry>
+  <myns:entry id="techreport">
+    <myns:techreport>
+      <myns:author>Lambert, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:institution>The institution that published</myns:institution>
+      <myns:year>1993</myns:year>
+      <myns:number>2</myns:number>
+      <myns:address>The address of the publisher</myns:address>
+      <myns:month>7</myns:month>
+      <myns:note type_of="note">An optional note</myns:note>
+    </myns:techreport>
+  </myns:entry>
+  <myns:entry id="unpublished">
+    <myns:unpublished>
+      <myns:author>Marcheford, Peter</myns:author>
+      <myns:title>The title of the work</myns:title>
+      <myns:note type_of="note">An optional note</myns:note>
+      <myns:month>7</myns:month>
+      <myns:year>1993</myns:year>
+    </myns:unpublished>
+  </myns:entry>
+</myns:file>
