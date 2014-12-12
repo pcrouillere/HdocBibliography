@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- namespace and namespace prefix -->
+<grammar ns="http://www.utc.fr/ics/hdoc/bibtexXm" 
+  xmlns="http://relaxng.org/ns/structure/1.0" 
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <!-- top level element -->
+  <start>
+    <element name="file">
+    <oneOrMore>
+      <element name="entry">
+        <attribute name="id"><data type="ID"/></attribute>
+      <choice>
+        <ref name="Article"/>
+        <ref name="Book"/>
+        <ref name="Booklet"/>
+        <ref name="Manual"/>
+        <ref name="Techreport"/>
+        <ref name="Mastersthesis"/>
+        <ref name="Phdthesis"/>
+        <ref name="Inbook"/>
+        <ref name="Incollection"/>
+        <ref name="Proceedings"/>
+        <ref name="Inproceedings"/>
+        <ref name="Conference"/>
+        <ref name="Unpublished"/>
+        <ref name="Misc"/>
+      </choice>
+      </element>
+    </oneOrMore>
+    </element>
+  </start>
+
+
+<!-- Type of entry -->
+  <!-- 
+    [article] An article from a journal or magazine.
+    -  Required fields: author, title, journal, year.
+    -  Optional fields: volume, number, pages, month, note.
+  -->
+<define name="Article">
+  <element name="article">
+    <interleave>
+      <ref name="Author"></ref>
+      <ref name="Title"></ref>
+      <ref name="Journal"/>
+      <ref name="Year"/>
+      <optional>
+        <ref name="Number"/>
+      </optional>
+      <optional>
+        <ref name="Pages"/>
+      </optional>
+      <optional>
+        <ref name="Month"/>
+      </optional>
+      <optional>
+        <oneOrMore><ref name="Note"></ref></oneOrMore>
+      </optional>
+      <optional>
+        <ref name="Volume"/>
+      </optional>
+      <optional>
+        <ref name="Key"/>
+      </optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+  <!--
+    [book] A book with an explicit publisher.  
+    -  Required fields: author or editor, title, publisher, year.
+    -  Optional fields: volume or number, series, address,
+    -     edition, month, note.
+  -->
+  <define name="Book">
+    <element name="book">
+      <interleave>
+      <ref name="Author"></ref>
+      <ref name="Editor"/>
+      <ref name="Title"></ref>
+      <ref name="Publisher"></ref>
+      <ref name="Year"/>
+    <optional>
+      <ref name="Volume"/>
+    </optional>
+    <optional>
+      <ref name="Series"></ref>
+   </optional>
+   <optional><ref name="Address"></ref></optional>
+   <optional> <ref name="Edition"></ref></optional>
+   <optional> <ref name="Month"></ref></optional>
+   <optional> <oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+   <optional> <ref name="Key"></ref></optional>
+   <optional> <ref name="Isbn"></ref></optional>
+        <optional><ref name="Url"></ref></optional>
+        </interleave>
+    </element>
+</define>
+  
+  <!-- 
+    [booklet] A work that is printed and bound, but without a named
+    -  publisher or sponsoring institution  
+    -  Required field: title.
+    -  Optional fields: author, howpublished, address, month, year, note
+  -->  
+<define name="Booklet">
+  <element name="booklet">
+    <interleave>
+  <ref name="Title"></ref>
+  <optional><ref name="Address"></ref></optional>
+  <optional> <ref name="Author"></ref></optional>
+  <optional> <ref name="Month"></ref></optional>
+  <optional> <ref name="Year"></ref></optional>
+  <optional> <oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional> <ref name="Key"></ref></optional>
+  <optional> <ref name="HowPublished"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+<!--
+    [manual] Technical documentation  
+    -  Required field: title.
+    -  Optional fields: author, organization, address, edition, month, year, note.
+  -->
+<define name="Manual">
+  <element name="manual">
+    <interleave>
+  <ref name="Title"></ref>
+  <optional>
+    <ref name="Editor"></ref>
+  </optional>
+  <optional>
+      <ref name="Volume"></ref>
+  </optional>
+      <optional>
+      <ref name="Number"></ref>
+  </optional>
+  <optional>
+    <ref name="Series"></ref>
+  </optional>
+  <optional>
+    <ref name="Pages"></ref>
+  </optional>
+  <optional>
+    <ref name="Address"></ref>
+  </optional>
+  <optional>
+    <ref name="Edition"></ref>
+  </optional>
+  <optional>
+    <ref name="Month"></ref>
+  </optional>
+  <optional>
+    <ref name="Year"></ref>
+  </optional>
+  <optional>
+    <oneOrMore><ref name="Note"></ref></oneOrMore>
+  </optional>
+  <optional>
+    <ref name="Key"></ref>
+  </optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+  
+  <!-- 
+    [techreport] A report published by a school or other institution, usually numbered within a series.  
+    -  Required fields: author, title, institution, year.
+    -  Optional fields: type, number, address, month, note.
+  -->
+<define name="Techreport">
+  <element name="techreport">
+    <interleave>
+  <ref name="Author"></ref>
+  <ref name="Title"></ref>
+  <ref name="Institution"></ref>
+  <ref name="Year"></ref>
+  <optional><ref name="Type"></ref></optional>
+  <optional><ref name="Number"></ref></optional>
+  <optional><ref name="Address"></ref></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+  
+  <!-- 
+    [mastersthesis] A Master's thesis.  
+    -  Required fields: author, title, school, year.
+    -  Optional fields: type, address, month, note.
+  -->
+<define name="Mastersthesis">
+  <element name="mastersthesis">
+  <ref name="Thesis"></ref>
+  </element>
+</define>
+  
+<define  name="Thesis">
+  <interleave>
+    <ref name="Author"></ref>
+    <ref name="Title"></ref>
+    <ref name="School"></ref>
+    <ref name="Year"></ref>
+    <optional><ref name="Type"></ref></optional>
+    <optional><ref name="Address"></ref></optional>
+    <optional><ref name="Month"></ref></optional>
+    <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+    <optional><ref name="Key"></ref></optional>
+    <optional><ref name="Url"></ref></optional>
+  </interleave>
+  </define>
+
+<!-- 
+    [phdthesis] A PhD thesis.  
+    -  Required fields: author, title, school, year.
+    -  Optional fields: type, address, month, note.
+  -->
+<define name="Phdthesis">
+  <element name="phdthesis">
+    <ref name="Thesis"></ref>
+  </element>
+</define>
+  
+  <!-- 
+  # [inbook] A part of a book, which may be a chapter (or section or
+# -  whatever) and/or a range of pages.  
+# -  Required fields: author or editor, title, chapter and/or pages,
+# -     publisher, year.
+# -  Optional fields: volume or number, series, type, address,
+# -     edition, month, note.
+  -->
+<define name="Inbook">
+  <element name="inbook">
+    <interleave>
+    <ref name="Author"></ref>
+    <ref name="Editor"></ref>
+    <ref name="Title"></ref>
+    <optional><ref name="Chapter"></ref></optional>
+    <optional><ref name="Pages"></ref></optional>
+  <ref name="Publisher"></ref>
+  <ref name="Year"></ref>
+  
+  <optional><ref name="Volume"></ref></optional>
+  <optional><ref name="Number"></ref></optional>
+  <optional><ref name="Series"></ref></optional>
+  <optional><ref name="Type"></ref></optional>
+  <optional><ref name="Address"></ref></optional>
+  <optional><ref name="Edition"></ref></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+<!-- 
+    [incollection] A part of a book having its own title.
+    -  Required fields: author, title, booktitle, publisher, year.
+    -  Optional fields: editor, volume or number, series, type, chapter, pages, address, edition, month, note.
+  -->
+<define name="Incollection">
+  <element name="incollection">
+    <interleave>
+  <ref name="Author"></ref>
+  <ref name="Title"></ref>
+  <ref name="BookTitle"></ref>
+  <ref name="Publisher"></ref>
+  <ref name="Year"></ref>
+  <optional><ref name="Editor"></ref></optional>
+      <optional><ref name="Volume"></ref></optional>
+      <optional><ref name="Number"></ref></optional>
+  <optional><ref name="Series"></ref></optional>
+  <optional><ref name="Type"></ref></optional>
+  <optional><ref name="Chapter"></ref></optional>
+  <optional><ref name="Pages"></ref></optional>
+  <optional><ref name="Address"></ref></optional>
+  <optional><ref name="Edition"></ref></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional>
+    <oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+<!--
+    [proceedings] The proceedings of a conference.  
+    -  Required fields: title, year.
+    -  Optional fields: editor, volume or number, series,
+    address, month, organization, publisher, note.
+  -->
+<define name="Proceedings">
+  <element name="proceedings">
+    <interleave>
+  <ref name="Title"/>
+  <ref name="Year"/>
+  <optional><ref name="Editor"/></optional>
+      <optional><ref name="Volume"></ref></optional>
+      <optional><ref name="Number"></ref></optional>
+  <optional><ref name="Series"></ref></optional>
+  <optional><ref name="Address"></ref></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional><ref name="Publisher"></ref></optional>
+  <optional><ref name="Organization"></ref></optional>
+  <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+<!-- 
+  [inproceedings] An article in a conference proceedings.
+  -  Required fields: author, title, booktitle, year.
+  -  Optional fields: editor, volume or number, series, pages, address, month, organization, publisher, note.
+  -->
+<define name="Inproceedings">
+  <element name="inproceedings">
+  <ref name="ProceedingConference"></ref>
+  </element>
+</define>
+  
+  <!-- 
+  [Conference] An article in a conference proceedings.
+  -  Required fields: author, title, booktitle, year.
+  -  Optional fields: editor, volume or number, series, pages, address, month, organization, publisher, note.
+  -->
+
+  <define name="Conference">
+  <element name="conference">
+    <ref name="ProceedingConference"></ref>
+  </element>
+</define>
+  
+  <!-- 
+    [unpublished] A document having an author and title, but not formally published.  
+    -  Required fields: author, title, note.
+    -  Optional fields: month, year.
+  -->
+  <define name="Unpublished">
+  <element name="unpublished">
+    <interleave>
+  <ref name="Author"></ref>
+  <ref name="Title"></ref>
+  <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional><ref name="Year"></ref></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+<!-- 
+    [misc] Use this type when nothing else fits.  
+    -  Required fields: none.
+    -  Optional fields: author, title, howpublished, month, year, note.
+  -->
+  <define name="Misc">
+  <element name="misc">
+    <interleave>
+  <optional>
+    <ref name="Author"></ref>
+  </optional>
+  <optional><ref name="Title"></ref></optional>
+  <optional><ref name="HowPublished"></ref></optional>
+  <optional><ref name="Month"></ref></optional>
+  <optional><ref name="Year"></ref></optional>
+  <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
+  <optional><ref name="Key"></ref></optional>
+      <optional><ref name="Url"></ref></optional>
+    </interleave>
+  </element>
+</define>
+
+
+
+<define name="ProceedingConference">
+  <interleave>
+  <ref name="Author"></ref>
+  <ref name="Title"></ref>
+  <ref name="BookTitle"/>
+  <ref name="Year"></ref>
+  <optional>
+    <ref name="Editor"></ref>
+  </optional>
+    <optional><ref name="Volume"></ref></optional>
+    <optional><ref name="Number"></ref></optional>
+  <optional>
+    <ref name="Series"></ref>
+  </optional>
+  <optional>
+    <ref name="Pages"></ref>
+  </optional>
+  <optional>
+    <ref name="Address"></ref>
+  </optional>
+  <optional>
+    <ref name="Month"></ref>
+  </optional>
+  <optional>
+    <ref name="Organization"></ref>
+  </optional>
+  <optional>
+    <ref name="Publisher"></ref>
+  </optional>
+  <optional>
+    <oneOrMore><ref name="Note"></ref></oneOrMore>
+  </optional>
+  <optional>
+    <ref name="Key"></ref>
+  </optional>
+    <optional><ref name="Url"></ref></optional>
+  </interleave>
+</define>
+
+<!-- Element of entry -->
+
+  <!-- The title of the book, if only part of it is being cited-->
+  <define name="BookTitle">
+    <element name="booktitle"><text/></element>
+  </define>
+
+  <!-- The school where the thesis was written -->
+  <define name="School">
+    <element name="school"><text/></element>
+  </define>
+  <!-- The conference sponsor -->
+  <define name="Organization">
+    <element name="organization"><text/></element>
+  </define>
+  
+  <!-- The series of books the book was published in -->  
+  <define name="Series">
+    <element name="series"><text/></element>
+  </define>
+  
+  
+  <define name="Isbn">
+    <element name="isbn"><text/></element>
+  </define>
+  
+  <!-- The edition of a book, long form -->
+  <define name="Edition">
+    <element name="edition"><text/></element>
+  </define>
+  <!-- Publisher's address : 
+    usually just the city, but can be the full address for lesser-known publishers-->
+  
+  <define name="Address">
+    <element name="address"><text/></element>
+  </define>
+  
+  <define name="Publisher">
+    <element name="publisher"><text/></element>
+  </define>
+  
+  <define name="Author">
+    <oneOrMore><element name="author"><text/></element></oneOrMore>
+  </define>
+  
+  <define name="Title">
+    <element name="title"><text/></element>
+  </define>
+  
+  <define name="Journal">
+    <element name="journal"><text/></element>
+  </define>
+  
+  <define name="Year">
+    <element name="year"><text/></element>
+  </define>
+  
+  <define name="Volume">
+  <element name="volume"><text/></element>
+  </define>
+  
+  <define name="Number">
+    <element name="number"><text/></element>
+  </define>
+  
+  <define name="Pages">
+    <element name="pages"><text/></element>
+  </define>
+
+  <define name="Month">
+  <element name="month"><text/></element>
+  </define>
+
+  <define name="Key">
+    <element name="key">
+      <text/>
+    </element>
+  </define>
+
+  <define name="Editor">
+    <element name="editor">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="Institution">
+    <element name="institution">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="Type">
+    <element name="type">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="Chapter">
+    <element name="chapter">
+      <text/>
+    </element>
+  </define>
+  
+  <define name="HowPublished">
+    <element name="howpublished">
+      <text/>
+    </element>
+  </define>
+
+  <define name="Note">
+    <element name="note">
+      <attribute name="type_of">
+        <choice>
+          <value>note</value>
+          <value>date</value>
+          <value>pages</value>
+          <value>address</value>
+          <value>publisher</value>
+          <value>edition</value>
+          <value>editor</value>
+          <value>howpublished</value>
+          <value>chapter</value>
+          <value>type</value>
+          <value>institution</value>
+          <value>volume</value>
+          <value>number</value>
+          <value>series</value>
+          <value>isbn</value>
+          <value>organization</value>
+          <value>key</value>
+          <value>school</value>
+          <value>booktitle</value>
+        </choice></attribute>
+      <text/>
+    </element>
+  </define>
+  
+  <define name="Url">
+    <element name="url">
+      <data type="anyURI"></data>
+    </element>
+  </define>
+</grammar>
