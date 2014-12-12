@@ -20,8 +20,8 @@
             xslresource="${basedir}/XSL/getOneDoc.xsl">
         </xslt>
     </target>
-    
-    
+
+
     <target name="convert" depends="createxml">
         <xslt 
             classpath="${basedir}/lib/saxon9ee.jar"
@@ -30,5 +30,5 @@
             xslresource="${basedir}/XSL/OpaleHdoc.xsl"></xslt>
         
     </target>
-    
+
 </project>

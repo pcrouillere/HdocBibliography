@@ -9,7 +9,7 @@
            <file>
                 <xsl:for-each 
                     select="collection(
-                    '../source/?select=*.ref;recurse=yes;on-error=warning'
+                    '../tmp/source/?select=*.ref;recurse=yes;on-error=warning'
                     )" >
                 <entry>
                 <xsl:copy-of select="."></xsl:copy-of>
