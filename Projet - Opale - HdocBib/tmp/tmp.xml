@@ -1,485 +1,2176 @@
 <?xml version="1.0" encoding="UTF-8"?><file><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
 	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
 		<op:bibM>
-			<sp:id>article</sp:id>
-			<sp:type>web</sp:type>
+			<sp:id>Abbey01</sp:id>
+			<sp:type>bib</sp:type>
 			<sp:desc>
 				<op:bibTxt>
-					<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Adams, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-<sc:textLeaf role="ed">                                 
-                                 
-                                 
-                                  
-                                 
-                                  
-                                 
-        Journal</sc:textLeaf> : The name of the journal 
-                                   
-                                 
-        Volume : 4  
-                                 
-        Volume : 2  
-                                 
-                                 
-        Pages : 201-213 
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note <sc:uLink role="url" url="weeeeb">    
-                             web</sc:uLink></sc:para>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t10">Abbey Michael, Corez Michael, Abramson Ian</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Oracle 9i : Notions fondamentales</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">CampusPress</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t8">2001</sc:textLeaf>.</sc:para>
 				</op:bibTxt>
 			</sp:desc>
 		</op:bibM>
 	</op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Allen80</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Newell Allen</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Physical symbol systems</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Cognitive Science</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1980</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>André89</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Jacques André, Richard Furuta, Vincent Quint</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">Structured documents</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">Cambridge University Press</sc:textLeaf>,  1989.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Auteur, YYYY</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve"><sc:textLeaf role="auth">Nom, Prenom</sc:textLeaf> (<sc:textLeaf role="date">YYYY</sc:textLeaf>). <sc:textLeaf role="title">Titre</sc:textLeaf>. <sc:textLeaf role="ed">Édition</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bachimont00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bachimont Bruno</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">Indexation audiovisuelle : une problématique en pleine évolution</sc:textLeaf>. L'Objet 6, 2. <sc:textLeaf role="date" sc:id="t5">2000</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bachimont01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Bachimont Bruno</sc:textLeaf>. <sc:textLeaf role="title">Du texte à l'hypotexte</sc:textLeaf>. Technologie, Idéologies, Pratiques. <sc:textLeaf role="date">2001-</sc:textLeaf>. spéciale "mémoires collectives". </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Bachimont04</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bachimont Bruno</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Arts et sciences du numérique : ingénierie des connaissances et critique de la raison computationnelle</sc:textLeaf>, Mémoire de HDR, <sc:textLeaf role="ed" sc:id="t7">Université de Technologie de Compiègne</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t5">2004</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bachimont04b</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bruno Bachimont</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Stéphane Crozat</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">Instrumentation numérique des documents : pour une séparation fonds/forme</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">revue I3, vol 4, num 1</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2004</sc:textLeaf>. [<sc:uLink role="url" sc:id="t9" url="http://archivesic.ccsd.cnrs.fr/sic_00001017.html">http://archivesic.ccsd.cnrs.fr/sic_00001017.html</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Bachimont07</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3">
+						<sc:textLeaf role="auth" sc:id="t5">Bruno Bachimont</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Ingénierie des connaissances et des contenus : le numérique entre ontologies et documents</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">Lavoisier, Hermès</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2007</sc:textLeaf></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Bachimont, 2008)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Bachimont B. (2008). Audiovisuel et numérique : la reconstruction éditoriale des contenus. In "Métadonnées : mutations et perspectives", coord. L. Calderan, B. Hidoine, J. Millet. ADBS éditions.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Bachimont96</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bachimont Bruno</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Herméneutique matérielle et artéfacture</sc:textLeaf>, Thèse en épistémologie, <sc:textLeaf role="date" sc:id="t5">1996</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bachimont98</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bachimont Bruno</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Charlet Jean</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">PolyTex : un environnement pour l'édition structurée de polycopiés électroniques multisupports</sc:textLeaf>, EuroTex'98, <sc:textLeaf role="date" sc:id="t6">1998</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bachimont99</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Bachimont Bruno</sc:textLeaf>. <sc:textLeaf role="title">Herméneutique du support et ingénierie des connaissances : de la différance numérique</sc:textLeaf>.  : <sc:textLeaf role="ed"/>, <sc:textLeaf role="date">1999</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Briet, 1951)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Briet S. (1951). Qu'est ce que la documentation ?. ÉDIT. <sc:uLink role="url" sc:id="t3" url="http://martinetl.free.fr/suzannebriet/questcequeladocumentation/">http://martinetl.free.fr/suzannebriet/questcequeladocumentation/</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Brillant07</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Alexandre Brillant</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t8">XML : Cours et exercices</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t7">2007</sc:textLeaf> [ISBN 978-2212126914]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bruillard97</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Bruillard Eric</sc:textLeaf>. <sc:textLeaf role="title">Les machines à enseigner</sc:textLeaf>.  : <sc:textLeaf role="ed">Hermès</sc:textLeaf>, <sc:textLeaf role="date">1997</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bruner60</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Bruner J.</sc:textLeaf>. <sc:textLeaf role="title">The process of education</sc:textLeaf>.  : <sc:textLeaf role="ed">Harvard University Press</sc:textLeaf>, <sc:textLeaf role="date">1960</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Buckland, 1983)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Buckland M. K. (1983, 1988). Library services in theory and context. Second edition. Pergamon Press.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Buckland, 1992)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t8">Buckland M. K. (1992). Redesigning Library Services: A Manifesto. The American Library Association. <sc:uLink role="url" sc:id="t9" url="http://sunsite.berkeley.edu/Literature/Library/Redesigning/html.html">http://sunsite.berkeley.edu/Literature/Library/Redesigning/html.html</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Bush45</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Bush V.</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">As we may think</sc:textLeaf>, The atlantic monthly, 176, pp101-108, <sc:textLeaf role="date" sc:id="t5">1945</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Celko00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Celko Joe</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">SQL avancé : Programmation et techniques avancées</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t5">Vuibert</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2000</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Chaumier, 1996)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Jacques Chaumier</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">La gestion électronique de documents</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">Que sais-je ?</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t8">1996</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Chen76</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Chen P.P</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">The Entity-Relationsheep Model - Towards a Unified View of Data</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">ACM Transactions on Database systems, 1-1</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t5">1976</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Choppy et al., 2011)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Choppy T., Nerden P., Zysman H. (2011). Gestion documentaire : le meilleur des solutions open source. Smile. <sc:uLink role="url" sc:id="t3" url="http://www.smile.fr">http://www.smile.fr</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Christensen97</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Clayton Christensen</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">The Innovator's Dilemma</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">Harvard Business School Press</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t7">1997</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Clement98</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Clément Jean</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">Du livre au texte</sc:textLeaf>. Sciences et Techniques Educatives, 5, 4. . <sc:textLeaf role="date" sc:id="t5">1998</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Codd70</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t6">Codd EF</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t3">A relational model for large shared data banks</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Communications de l'ACM</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">juin 1970</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Couillault, Le Foll, 2007)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t4">Couillault A., Le Foll L.</sc:textLeaf> (2007). <sc:textLeaf role="title" sc:id="t5">Livre Blanc : Valorisation de l'information non-structurée</sc:textLeaf>. <sc:uLink role="url" sc:id="t6" url="http://www.aproged.org/index.php/Demarrer-telechargement/Publications/6-Livre-Blanc-Valorisation-de-l-information-non-structuree.html">http://www.aproged.org/index.php/Demarrer-telechargement/Publications/6-Livre-Blanc-Valorisation-de-l-information-non-structuree.html</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Crozat02</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Crozat Stéphane</sc:textLeaf>. <sc:textLeaf role="title">Eléments pour la conception industrialisée des supports pédagogiques numériques.</sc:textLeaf>.  p. Mémoire de thèse en informatique.. Université de Technologie de Compiègne. 2002. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Crozat04</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Crozat Stéphane</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Bachimont Bruno</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t5">Réinterroger les structures documentaires : de la numérisation à l'informatisation.</sc:textLeaf>. I3. <sc:textLeaf role="date" sc:id="t6">2004</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Crozat 2007</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3"> Christophe Campanaud, Stéphane Crozat, Manuel Majada</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Base de contenus pédagogiques structurés : retour sur 8 ans d'expérience</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">iLearning Forum 2007</sc:textLeaf>, Paris, <sc:textLeaf role="date" sc:id="t7">2007</sc:textLeaf>. <sc:uLink role="url" sc:id="t5" url="http://www.eife-l.org/publications/proceedings/ilf07/Contribution146_a.pdf">[http://www.eife-l.org/publications/proceedings/ilf07/Contribution146_a.pdf</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Crozat et al., 2011)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Crozat S., Bachimont B., Cailleau I., Bouchardon S., Gaillard L. (2011). Éléments pour une théorie opérationnelle de l'écriture numérique. Document Numérique, vol 14, num 3. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Crozat, 2012)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Crozat S. (2012). Chaînes éditoriales et rééditorialisation de contenus numériques. In "Le document numérique à l'heure du web de données", coord. L. Calderan. ADBS éditions.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Delmal01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Delmal Pierre</sc:textLeaf>. <sc:textLeaf role="title">SQL2 SQL3, applications à Oracle</sc:textLeaf>. <sc:textLeaf role="ed">De Boeck Université</sc:textLeaf>, <sc:textLeaf role="date">2001</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>DiLorio06</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t6">Di Lorio A, Zacchiroli S</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">Constrained wiki: an oxymoron?</sc:textLeaf>, In <sc:textLeaf role="ed" sc:id="t4">WikiSym'06</sc:textLeaf>: Proceedings of the 2006 international symposium on Wikis, pages 89–98, New York, USA, <sc:textLeaf role="date" sc:id="t3">2006</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Dubois04</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Dubois Paul</sc:textLeaf>, <sc:textLeaf role="auth">Hinz Stefan</sc:textLeaf>, <sc:textLeaf role="auth">Pedersen Carsten</sc:textLeaf>. <sc:textLeaf role="title">MySQL : Guide officiel</sc:textLeaf>. ISBN 2-7440-1782-5. Paris : <sc:textLeaf role="ed">CampuPress</sc:textLeaf>, <sc:textLeaf role="date">2004</sc:textLeaf>. 702 p. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Dupoirier, 1995)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"> <sc:textLeaf role="auth" sc:id="t5">Gérard Dupoirier</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Technologie de la GED : Techniques et management des documents électroniques</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">Hermes</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">1995</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Eckstein00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Robert Eckstein, Michel Casabianca</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">XML précis &amp; concis</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">O'Reilly</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">2000</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Edlich02</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Stefan Edlich</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Ant précis &amp; concis</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">O'Reilly</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">2002</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Ford01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Ford Andrew</sc:textLeaf>. <sc:textLeaf role="title">Apache précis et concis</sc:textLeaf>. ISBN 2-84177-11. France : <sc:textLeaf role="ed">O'REILLY</sc:textLeaf>, <sc:textLeaf role="date">2000</sc:textLeaf>. 125 p. Précis et concis. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Foucault96</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Foucault Odile</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Thiéry Odile</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t5">Kamel Smaïli</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t6">Conception des systèmes d'information et programmation événementielle : de l'étape conceptuelle à l'étape d'implantation.</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t7">Intereditions</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t8">1996</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Freinet64</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Freinet C.</sc:textLeaf>. <sc:textLeaf role="title">Moderniser l'école</sc:textLeaf>.  : <sc:textLeaf role="ed">Armand Colin</sc:textLeaf>, <sc:textLeaf role="date">1964</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Gardarin99</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Gardarin Georges</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">Bases de données : objet et relationnel</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1999</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Gil00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Gil Philippe</sc:textLeaf>. <sc:textLeaf role="title">e-formation : NTIC et reengineering de la formation professionnelle</sc:textLeaf>.  : <sc:textLeaf role="ed">Dunod</sc:textLeaf>, <sc:textLeaf role="date">2000</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Chez Gligli</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.chezgligli.net/">http://www.chezgligli.net/</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Goglin01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Jean-François Goglin</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">La construction du datawarehouse : du datamart au dataweb</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Hermes</sc:textLeaf>, 2ème édition, <sc:textLeaf role="date" sc:id="t4">2001</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Goglin, 2001)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3">Goglin J.-F.  (2001, 1998). <sc:textLeaf role="title" sc:id="t6">La construction du datawarehouse : du datamart au dataweb</sc:textLeaf>. Hermes, 2ème édition.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Goody79</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Goody Jack</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">La raison graphique : La domestication de la pensée sauvage</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Les éditions de minuit</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1979</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Gruber 1993</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Thomas R. Gruber</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Formal ontology in conceptual analysis and knowledge representation</sc:textLeaf>, Chapter: Towards principles for the design of ontologies used for knowledge sharing, <sc:textLeaf role="ed" sc:id="t5">Kluwer Academic Publishers</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1993</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>husserl50</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Husserl Edmund</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Idées directrices pour une phénoménologie</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Gallimard</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1950</sc:textLeaf> (Ideen I, 1913).</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Inmon, 2002)</sp:id>
+			<!--<comment xmlns="scenari.eu:comment:1.0" type="thread"><comment creationTime="1362038877419">http://cs5937.userapi.com/u11728334/docs/1ef816d44d3f/W_H_Inmon_Building_the_Data_Warehouse_3rd_E.pdf</comment></comment>-->
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Inmon W.-H. (2002, 1990). <sc:textLeaf role="title" sc:id="t3">Building the data warehouse</sc:textLeaf>. Wiley  Publishing, 3rd edition. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Joule, Beauvois, 2004</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve">Robert-Vincent Joule, Jean-Léon Beauvois, <sc:textLeaf role="title">Petit traité de manipulation à l'usage des honnêtes gens</sc:textLeaf>, Presses Universitaires de Grenoble, 2004.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>JpR Aéroweb</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://jprendu.club.fr/aeroweb">http://jprendu.club.fr/aeroweb</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Kimbal03</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Kimball Ralph</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Ross Margy</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">Entrepôts de données : guide pratique de modélisation dimensionnelle</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">Vuibert</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t7">2003</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Kimbal, Ross, 2003)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						Kimball R., Ross M. (2003). <sc:textLeaf role="title" sc:id="t3">Entrepôts de données : guide pratique de modélisation dimensionnelle</sc:textLeaf>. Vuibert.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Kimball, Caserta, 2004)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Kimball R., Caserta J. (2004). <sc:textLeaf role="title" sc:id="t3">The Data Warehouse ETL Toolkit</sc:textLeaf>. Wiley Publishing.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Kimball et al., 2008)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Kimball R., Ross M., Thornthwaite W., Mundy J., Becker B. (2008, 1998). <sc:textLeaf role="title" sc:id="t3">The Data Warehouse Lifecycle Toolkit</sc:textLeaf>. Wiley Publishing, second edition.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Kimball, Ross, 2008)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Kimball R., Ross M. (2008, 2002). <sc:textLeaf role="title" sc:id="t3">The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling</sc:textLeaf>. Wiley Publishing, second edition.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Lerdof01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Lerdof Rasmus</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">PHP précis et concis</sc:textLeaf>. ISBN 2-84177-249-7. France : <sc:textLeaf role="ed" sc:id="t5">O'REILLY</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2002</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Levie, 2006)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Levie F. (2006). L'homme qui voulait classer le monde : Paul Otlet et le Mundaneum. Les impressions nouvelles.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Linard96</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Linard Monique</sc:textLeaf>. <sc:textLeaf role="title">Des machines et des hommes : Apprendre avec les nouvelles technologies</sc:textLeaf>.  : <sc:textLeaf role="ed">L'Harmattan</sc:textLeaf>, <sc:textLeaf role="date">1996</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Mata03</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Mata-Toledo Ramon A.</sc:textLeaf>, <sc:textLeaf role="auth">Cushman Pauline K.</sc:textLeaf>. <sc:textLeaf role="title">Programmation SQL</sc:textLeaf>. <sc:textLeaf role="ed">Ediscience</sc:textLeaf>, <sc:textLeaf role="date">2003</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Mathieu00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Mathieu Philippe</sc:textLeaf>. <sc:textLeaf role="title">Des bases de données à l'internet</sc:textLeaf>. <sc:textLeaf role="ed">Vuibert</sc:textLeaf>, <sc:textLeaf role="date">2000</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Messager, 2009</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t3">
+						<sc:textLeaf role="auth" sc:id="t8">Messager-Rota Véronique</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t7">Gestion de projet : Vers les méthodes agiles</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2007</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Michard97</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Michard Alain</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">XML, langage et applications</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1997</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Muller98</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Muller P.A.</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Modélisation objet avec UML</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1998</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Nanard01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Nanard M</sc:textLeaf>, <sc:textLeaf role="auth">Nanard J</sc:textLeaf>. <sc:textLeaf role="title">EadGen, un environnement ouvert de production en ligne basé sur XML et XSL-T</sc:textLeaf>. TICE'2002. 2002, Lyon, France. . </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">book</sp:id>
+<sp:id>O</sp:id>
 <sp:type>bib</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Babington, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 <sc:textLeaf role="ed">The name of the publisher</sc:textLeaf>
-                                  The address
-                                 
-        Edition : 3
-                                  
-                                  
-                                  
-        Series : 10 
-                                 
-        Volume : 4  
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note
-        Note : 3257227892     
-                             </sc:para>
-</op:bibTxt>
-</sp:desc>
-</op:bibM>
-</op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
-<op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">booklet</sp:id>
-<sp:type>bib</sp:type>
-<sp:desc>
-<op:bibTxt>
-<sc:para xml:space="preserve">
-                                 
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : Caxton, Peter
-        Note : An optional note     
-                             </sc:para>
-</op:bibTxt>
-</sp:desc>
-</op:bibM>
-</op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
-<op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">conference</sp:id>
-<sp:type>bib</sp:type>
-<sp:desc>
-<op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Draper, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the book</sc:textLeaf>
-                                 <sc:textLeaf role="ed">editor, The</sc:textLeaf>
-                                 <sc:textLeaf role="ed">The publisher</sc:textLeaf>
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                  
-        Series : 5 
-                                 
-        Volume : 4  
-                                   
-                                 
-                                 
-        Pages : 213 
-                                  
-                                 
-                                 The organization                               
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="auth">Crozat Stéphane</sc:textLeaf>. <sc:textLeaf role="title">Méthode d'évaluation de la composition multimédia des didacticiels</sc:textLeaf>.  p. DEA en Contrôle Des Systèmes. Université de Technologie de Compiègne. 1998. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
 </sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
-    <op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
-        <op:bibM>
-            <sp:id>article</sp:id>
-            <sp:type>web</sp:type>
-            <sp:desc>
-                <op:bibTxt>
-                    <sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Adams, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>Journal : The name of the journal 
- <sc:uLink role="url" url="weeeeb">web</sc:uLink></sc:para>
-                </op:bibTxt>
-            </sp:desc>
-        </op:bibM>
-    </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>OASIS, 2003</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t6">James Clark, John Cowan, Murata Makoto</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">RELAX NG Compact Syntax Tutorial</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">OASIS</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">2003</sc:textLeaf>. [<sc:uLink role="url" sc:id="t3" url="http://www.relaxng.org/compact-tutorial-20030326.html">http://www.relaxng.org/compact-tutorial-20030326.html</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Olivia</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://olivia.aviation-civile.gouv.fr">http://olivia.aviation-civile.gouv.fr</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Otlet, 1934)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t8">Otlet P. (1934). Traité de documentation : le livre sur le livre, théorie et pratique. Editions Mundaneum, Bruxelles. <sc:uLink role="url" sc:id="t9" url="http://search.ugent.be/meercat/x/view/rug01/000990276">http://search.ugent.be/meercat/x/view/rug01/000990276</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Pedauque03</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Roger T. Pédauque</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">Document : forme, signe et médium, les re-formulations du numérique</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">premier texte</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t7">2003</sc:textLeaf>. [<sc:uLink role="url" sc:id="t8" url="http://archivesic.ccsd.cnrs.fr/sic_00000511">http://archivesic.ccsd.cnrs.fr/sic_00000511</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Pedauque05</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Roger T. Pédauque</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t8">Le texte en jeu : Permanence et transformations du document</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">second texte</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2005</sc:textLeaf>. [<sc:uLink role="url" sc:id="t5" url="http://archivesic.ccsd.cnrs.fr/sic_00001401">http://archivesic.ccsd.cnrs.fr/sic_00001401</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Pedauque06</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Roger T. Pédauque</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t8">Document et modernités</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">troisième texte</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2006</sc:textLeaf>. [<sc:uLink role="url" sc:id="t5" url="http://archivesic.ccsd.cnrs.fr/sic_00001741">http://archivesic.ccsd.cnrs.fr/sic_00001741</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Cartes d'aérodromes</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.utc.fr/ics/~stc/perso/ppl/divers/cartes.php">http://www.utc.fr/ics/~stc/perso/ppl/divers/cartes.php</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Piaget67</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Piaget Jean</sc:textLeaf>. <sc:textLeaf role="title">La psychologie de l'intelligence</sc:textLeaf>.  : <sc:textLeaf role="ed">Armand Collin</sc:textLeaf>, <sc:textLeaf role="date">1967</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>pilotlist.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.pilotlist.org/">http://www.pilotlist.org/</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Pratt01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Pratt Philip J.</sc:textLeaf>
+					.	<sc:textLeaf role="title" sc:id="t4">Initiation à SQL : Cours et exercices corrigés</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, Collection Noire. <sc:textLeaf role="date" sc:id="t6">2001</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Roques04</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Roques Pascal</sc:textLeaf>, <sc:textLeaf role="auth">Vallée Franck</sc:textLeaf>. <sc:textLeaf role="title">UML 2 en action : De l'analyse des besoins à la conception J2EE</sc:textLeaf>. ISBN 2-212-11462-1 (3ème édition). Paris : <sc:textLeaf role="ed">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date">2004</sc:textLeaf>. 385 p. architecte logiciel. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Roques08</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Pascal Roques</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">UML 2 : Modéliser une application web</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t8">4e édition, Les cahiers du programmeur, Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t9">2008</sc:textLeaf> [ISBN 978-2212123890]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Roques09</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t4">Pascal Roques</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">UML 2 par la pratique</sc:textLeaf>, 7e édition, Eyrolles, 2009 [ISBN 978-2212125658]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Place de l'audio dans un dispositif hypermédia</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.ina.fr/sites/ina.fr/medias/upload/grm/webradio/audio_hypermedia/index.html">http://www.ina.fr/sites/ina.fr/medias/upload/grm/webradio/audio_hypermedia/index.html</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(SerdaLab, 2007)</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Serda Lab</sc:textLeaf>. (2007). <sc:textLeaf role="title" sc:id="t4">Documents et flux numériques : Marché et tendances 2007-2008</sc:textLeaf>. <sc:textLeaf role="ed" sc:id="t5">Archimag</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Shea06</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Dave Shea, Molly Holzschlag</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Le Zen des CSS</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5"> Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">2006</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>SIA</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.sia.aviation-civile.gouv.fr/">http://www.sia.aviation-civile.gouv.fr/</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Guide VFR en ligne (SIA)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.sia.aviation-civile.gouv.fr/asp/texteregle/texteregle-c.asp?ordre_0=2&amp;ordre_1=1&amp;lang=fr">http://www.sia.aviation-civile.gouv.fr/asp/texteregle/texteregle-c.asp?ordre_0=2&amp;ordre_1=1&amp;lang=fr</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>SIA (Altlas VAC en ligne)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.sia.aviation-civile.gouv.fr/html/frameset_aip_fr.htm">http://www.sia.aviation-civile.gouv.fr/html/frameset_aip_fr.htm</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Simulation de fonctionnement d'un VOR</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.visi.com/~mim/nav/">http://www.visi.com/~mim/nav/</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Skinner79</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Skinner B.F.</sc:textLeaf>. <sc:textLeaf role="title">Pour une science du comportement : Le behaviorisme</sc:textLeaf>.  : <sc:textLeaf role="ed">Delachaux et Niestlé</sc:textLeaf>, <sc:textLeaf role="date">1979</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>(Smile, 2012)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">Smile (2012, 2006). <sc:textLeaf role="title" sc:id="t3">Décisionnel : le meilleur des solutions open source</sc:textLeaf>. <sc:uLink role="url" sc:id="t4" url="http://www.smile.fr/Livres-blancs/ERP-et-decisionnel/Le-decisionnel-open-source/">http://www.smile.fr/Livres-blancs/ERP-et-decisionnel/Le-decisionnel-open-source</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Soulez85</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Soulez Antonia</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Manifeste du Cercle de Vienne et autres récits</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Presses Universitaires de France</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1985</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Soutou02</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Soutou Christian</sc:textLeaf>. <sc:textLeaf role="title">De UML à SQL : Conception de bases de données</sc:textLeaf>. <sc:textLeaf role="ed">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date">2002</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Stiegler94a</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Stiegler Bernard</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">La technique et le temps, Tome I : La faute d'Épiméthée</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Galilée</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1994</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Stiegler94b</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Stiegler Bernard</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">La technique et le temps, Tome II : La désorientation</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Galilée</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">1994</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Tardieu83</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Tardieu H.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Rochfeld A.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t5">Colleti R.</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Méthode MERISE Tome 1 : Principes et outils</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">Les Editions d'Organisation</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t8">1983</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Tardieu85</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Tardieu H.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Rochfeld A.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t5">Colleti R.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t6">Panet G.</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t7">Vahee G.</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t8">Méthode MERISE Tome 2 : Démarche et pratiques</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t9">Les Editions d'Organisation</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t10">1985</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Thibaud03</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Thibaud Cyril</sc:textLeaf>. <sc:textLeaf role="title">MySQL 4 : Installation, mise en oeuvre et programmation</sc:textLeaf>. <sc:textLeaf role="ed">Editions ENI</sc:textLeaf>, <sc:textLeaf role="date">2003</sc:textLeaf>. Collection Ressources Informatiques. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Thorndike13</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Thorndike Edward L.</sc:textLeaf>. <sc:textLeaf role="title" sc:id="t4">The Psychology of Learning</sc:textLeaf>. Educational Psychology. <sc:textLeaf role="date" sc:id="t5">1913</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>TLFi</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2"><sc:textLeaf role="title" sc:id="t4">Trésor de la langue française informatisé</sc:textLeaf>, <sc:uLink role="url" sc:id="t3" url="http://atilf.atilf.fr/dendien/scripts/tlfiv4/showps.exe?p=combi.htm">http://atilf.atilf.fr/dendien/scripts/tlfiv4/showps.exe?p=combi.htm</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Turing36</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Turing Alan</sc:textLeaf>. <sc:textLeaf role="title">La machine de Turing</sc:textLeaf>. 1995.  : <sc:textLeaf role="ed">Seuil</sc:textLeaf>, <sc:textLeaf role="date">1936</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Vlist, 2000</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t5">Eric van der Vlist</sc:textLeaf>,
+						<sc:textLeaf role="title" sc:id="t4">Guide de référence rapide W3C XML Schema</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t6">2000</sc:textLeaf>. [<sc:uLink role="url" sc:id="t3" url="http://xmlfr.org/documentations/tutoriels/001219-0001">http://xmlfr.org/documentations/tutoriels/001219-0001</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Vlist, 2000b</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Eric van der Vlist</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Tutoriel XML Schema :Introduction aux schémas W3C XML Schema</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t5">2000</sc:textLeaf>. [<sc:uLink role="url" sc:id="t6" url="http://xmlfr.org/documentations/tutoriels/001218-0001">http://xmlfr.org/documentations/tutoriels/001218-0001</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">inbook</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W24</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Eston, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 <sc:textLeaf role="ed">The name of the publisher</sc:textLeaf>
-                                  The address of the publisher
-                                 
-        Edition : 3
-                                  
-                                  
-                                  
-        Series : 5 
-                                 
-        Volume : 4  
-                                   
-                                 8
-                                 
-        Pages : 201-213 
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">XSL</sc:textLeaf>. <sc:uLink url="www.w3.org/Style/XSL" role="url">www.w3.org/Style/XSL</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">incollection</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W25</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Farindon, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the book</sc:textLeaf>
-                                 <sc:textLeaf role="ed">editor, The</sc:textLeaf>
-                                 <sc:textLeaf role="ed">The name of the publisher</sc:textLeaf>
-                                  The address of the publisher
-                                 
-        Edition : 3
-                                  
-                                  
-                                  
-        Series : 5 
-                                 
-        Volume : 4  
-                                   
-                                 8
-                                 
-        Pages : 201-213 
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">XPath</sc:textLeaf>. <sc:uLink url="www.w3.org/TR/xpath" role="url">www.w3.org/TR/xpath</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">manual</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W29</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  The address of the publisher
-                                 
-        Edition : 3
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : Gainsford, Peter
-        Note : The organization
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">MP3</sc:textLeaf>. <sc:uLink url="www.mp3.com" role="url">www.mp3.com</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">mastersthesis</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W3</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Harwood, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">Dublin Core</sc:textLeaf>. <sc:uLink url="www.dublincore.org" role="url">www.dublincore.org</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">misc</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W30</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Isley, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  
-                                 
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">JPEG</sc:textLeaf>. <sc:uLink url="www.iso.ch, 10918-4:1999" role="url">www.iso.ch, 10918-4:1999</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">phdthesis</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W31</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Joslin, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">MPEG</sc:textLeaf>. <sc:uLink url="www.cselt.it/mpeg" role="url">www.cselt.it/mpeg</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">proceedings</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W32</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 <sc:textLeaf role="ed">Kidwelly, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="ed">The name of the publisher</sc:textLeaf>
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                  
-        Series : 5 
-                                 
-        Volume : 4  
-                                   
-                                 
-                                  
-                                  
-                                 
-                                 The organization                               
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">DocBook</sc:textLeaf>. <sc:uLink url="www.docbook.org" role="url">www.docbook.org</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">techreport</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W33</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Lambert, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  The address of the publisher
-                                 
-                                  
-                                  
-                                   
-                                   
-                                 
-        Volume : 2  
-                                 
-                                  
-                                  
-                                 The institution that published
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">XML Schema</sc:textLeaf>. <sc:uLink url="www.w3.org/XML/Schema" role="url">www.w3.org/XML/Schema</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
-</sc:item></entry><entry><sc:item xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:op="utc.fr:ics/opale3">
-<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
 <op:bibM>
-<sp:id xmlns="http://www.utc.fr/ics/scenari/v3/primitive">unpublished</sp:id>
-<sp:type>bib</sp:type>
+<sp:id>W34</sp:id>
+<sp:type>web</sp:type>
 <sp:desc>
 <op:bibTxt>
-<sc:para xml:space="preserve">
-                                 <sc:textLeaf role="auth">Marcheford, Peter</sc:textLeaf>
-                                 <sc:textLeaf role="date">7 1993</sc:textLeaf>
-                                 <sc:textLeaf role="title">The title of the work</sc:textLeaf>
-                                 
-                                 
-                                 
-                                  
-                                 
-                                  
-                                  
-                                   
-                                   
-                                   
-                                 
-                                  
-                                  
-                                 
-                                                                
-                                  
-                                 
-        Note : An optional note     
-                             </sc:para>
+<sc:para>
+<sc:textLeaf role="title">Synergie 3R</sc:textLeaf>. <sc:uLink url="www.synergie3r.com" role="url">www.synergie3r.com</sc:uLink>. [2001]. </sc:para>
 </op:bibTxt>
 </sp:desc>
 </op:bibM>
 </op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W35</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">PDF</sc:textLeaf>. <sc:uLink url="www.adobe.com/products/acrobat/adobepdf.html" role="url">www.adobe.com/products/acrobat/adobepdf.html</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W36</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">EPCEdit</sc:textLeaf>. <sc:uLink url="www.epcedit.com" role="url">www.epcedit.com</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W37</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">SVG</sc:textLeaf>. <sc:uLink url="www.w3.org/Graphics/SVG" role="url">www.w3.org/Graphics/SVG</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W38</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">Cabri-Géomètre</sc:textLeaf>. <sc:uLink url="www.cabri.net" role="url">www.cabri.net</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>W3C, 2000</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t5">W3C</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">XML Schema Part 1: Structures</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t3">2000</sc:textLeaf>. [<sc:uLink role="url" sc:id="t4" url="http://www.w3.org/TR/2000/CR-xmlschema-1-20001024/">http://www.w3.org/TR/2000/CR-xmlschema-1-20001024/</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W4</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">ARIADNE</sc:textLeaf>. <sc:uLink url="ariadne.unil.ch" role="url">ariadne.unil.ch</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W5</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">ISO JTC1 SC36</sc:textLeaf>. <sc:uLink url="jtc1sc36.org" role="url">jtc1sc36.org</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W6</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">SCORM</sc:textLeaf>. <sc:uLink url="www.adlnet.org" role="url">www.adlnet.org</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W7</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">LOM</sc:textLeaf>. <sc:uLink url="grouper.ieee.org/groups/ltsc/index.html" role="url">grouper.ieee.org/groups/ltsc/index.html</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W8</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">AFNOR</sc:textLeaf>. <sc:uLink url="www.afnor.fr" role="url">www.afnor.fr</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>W9</sp:id>
+<sp:type>web</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="title">CEN</sc:textLeaf>. <sc:uLink url="www.cenorm.be" role="url">www.cenorm.be</sc:uLink>. [2001]. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>Williams01</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t7">Kevin Williams, Michael Brundage, Patrick Dengler, Jeff Gabriel, Andy Hoskinson, Michael Kay, Thomas Maxwell, Marcello Ochoa, Johnny Papa, Mohan Vanmane</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">XML et les bases de données</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t5">Eyrolles</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t4">2001</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Winograd89</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Winograd Terry</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t4">Flores Fernando</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">L'intelligence artificielle en question</sc:textLeaf>,<sc:textLeaf role="ed" sc:id="t6">Presses Universitaires de France</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t7">1989</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Wong00</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Wong Clinton</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">HTTP précis et concis</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t7">O'REILLY</sc:textLeaf>, <sc:textLeaf role="date" sc:id="t8">2000</sc:textLeaf> [ISBN 2-84177-1].</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>WW3</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">DCMI</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Dublin Core Metadata Element Set</sc:textLeaf>,  : <sc:textLeaf role="ed" sc:id="t5"/>, <sc:textLeaf role="date" sc:id="t6">1998</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>WW6</sp:id>
+<sp:type>bib</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="auth">ADL </sc:textLeaf>. <sc:textLeaf role="title">Sharable Content Object Reference Model</sc:textLeaf>.  : <sc:textLeaf role="ed"/>, <sc:textLeaf role="date">2001</sc:textLeaf>. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+<op:bib>
+<op:bibM>
+<sp:id>WW7</sp:id>
+<sp:type>bib</sp:type>
+<sp:desc>
+<op:bibTxt>
+<sc:para>
+<sc:textLeaf role="auth">IEEE </sc:textLeaf>. <sc:textLeaf role="title">Learning Object Metadata</sc:textLeaf>.  : <sc:textLeaf role="ed"/>, <sc:textLeaf role="date">2001</sc:textLeaf>. </sc:para>
+</op:bibTxt>
+</sp:desc>
+</op:bibM>
+</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_access.developpez.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">www.developpez.com</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Les meilleurs cours, tutoriels et docs sur Access</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://access.developpez.com/">http://access.developpez.com/</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2003</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_access.developpez.com/faq</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">www.developpez.com</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Access FAQ</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://access.developpez.com/faq/">http://access.developpez.com/faq/</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2003</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_aiim.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t6">AIIM</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t5">What is ECM ?</sc:textLeaf>. [<sc:uLink role="url" sc:id="t4" url="http://www.aiim.org/about-ecm.asp">http://www.aiim.org/about-ecm.asp</sc:uLink>]</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_ant.apache.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t5">Apache</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">The Apache Ant Project</sc:textLeaf>, <sc:uLink role="url" sc:id="t7" url="http://ant.apache.org">http://ant.apache.org</sc:uLink>, consulté en <sc:textLeaf role="date" sc:id="t8">2011</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_clever-age.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t4"><sc:textLeaf role="auth" sc:id="t6">Nicolas Hoizey</sc:textLeaf>,<sc:textLeaf role="title" sc:id="t8"> Faisons le point sur les langages de schéma XML</sc:textLeaf>,
+						<sc:uLink role="url" sc:id="t5" url="http://www.clever-age.com/veille/clever-link/faisons-le-point-sur-les-langages-de-schema-xml.html">http://www.clever-age.com/veille/clever-link/faisons-le-point-sur-les-langages-de-schema-xml.html</sc:uLink>, <sc:textLeaf role="date" sc:id="t9">2004</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_commentcamarche.net</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Pillou Jean-François</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Comment ça marche ? Encyclopédie informatique libre</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="www.commentcamarche.net">www.commentcamarche.net</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2005</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_developpez.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">DEVELOPPEZ LLC</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Dveloppez.com, club des développeurs</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="www.developpez.com">www.developpez.com</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2006</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_developpez.com/hcesbronlavau</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Cesbron-Lavau Henry</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Les transactions</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.developpez.com/hcesbronlavau/Transactions.htm">http://www.developpez.com/hcesbronlavau/Transactions.htm</sc:uLink>, 2002. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_dia</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t4">Dia</sc:textLeaf>, <sc:uLink role="url" sc:id="t3" url="http://live.gnome.org/Dia">http://live.gnome.org/Dia</sc:uLink></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_enst.fr/jld</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="auth">Dessalles Jean-Louis</sc:textLeaf>. <sc:textLeaf role="title">Introduction aux cours d'Intelligence Artificielle</sc:textLeaf>. <sc:uLink url="www.perso.enst.fr/~jld/cours/domin/introi01.htm" role="url">www.perso.enst.fr/~jld/cours/domin/introi01.htm</sc:uLink>. [2004]. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_fr.selfhtml.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2"><sc:textLeaf role="auth" sc:id="t5">SELFHTML</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Formation XML</sc:textLeaf>, <sc:uLink role="url" sc:id="t3" url="http://fr.selfhtml.org/xml/">http://fr.selfhtml.org/xml/</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">2003</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_gchagnon.fr</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t2"><sc:textLeaf role="auth" sc:id="t5">Gilles Chagnon</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Cours de XML - Initiation aux Schema XML</sc:textLeaf>,
+						<sc:uLink role="url" sc:id="t3" url="http://www.gchagnon.fr/cours/xml/schema.html">http://www.gchagnon.fr/cours/xml/schema.html</sc:uLink>, version 1.41, <sc:textLeaf role="date" sc:id="t6">2011</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_granddictionnaire.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:uLink role="url" sc:id="t3" url="http://www.granddictionnaire.com/">http://www.granddictionnaire.com/</sc:uLink>
+					</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_int-evry.fr</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Defude Bruno</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Tutoriel  de bases de données relationnelles de l'INT Evry</sc:textLeaf>, <sc:uLink role="url" sc:id="t6" url="http://www-inf.int-evry.fr/COURS/BD/">http://www-inf.int-evry.fr/COURS/BD/</sc:uLink>, <sc:textLeaf role="date" sc:id="t5">consulté en 2009</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_iso.ch(1)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">Standard Generalized Markup Language (SGML)</sc:textLeaf>, <sc:textLeaf role="ed" sc:id="t6">ISO 8879:1986</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="www.iso.ch, ISO 8879:1986">www.iso.ch</sc:uLink>, 1986.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_journaldunet.com(1)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Morlon Jérôme</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">UML en 5 étapes</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://developpeur.journaldunet.com/dossiers/alg_uml.shtml">http://developpeur.journaldunet.com/dossiers/alg_uml.shtml</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">2004</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_journaldunet.com(2)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Borderie Xavier</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Cinq petits conseils pour un schéma UML efficace</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://developpeur.journaldunet.com/tutoriel/cpt/031013cpt_uml5conseils.shtml">http://developpeur.journaldunet.com/tutoriel/cpt/031013cpt_uml5conseils.shtml</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">2004</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_journaldunet.com(3)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Crochet-Damais Antoine</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">MySQL ou PostgreSQL ? Des arguments pour comprendre</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://solutions.journaldunet.com/0402/040210_postgresql.shtml">http://solutions.journaldunet.com/0402/040210_postgresql.shtml</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">2004</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_loria.fr/~roegel(1)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Roegel Denis</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Oracle : SQL</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.loria.fr/~roegel/cours/iut/oracle-sql.pdf">http://www.loria.fr/~roegel/cours/iut/oracle-sql.pdf</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">1999</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_loria.fr/~roegel(2)</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Roegel Denis</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Le langage procédural PL/SQL</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.loria.fr/~roegel/cours/iut/oracle-plsql.pdf">http://www.loria.fr/~roegel/cours/iut/oracle-plsql.pdf</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">1999</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_manuelphp.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t10">Manuel PHP.com</sc:textLeaf>,
+						<sc:textLeaf role="title" sc:id="t9">PosgreSQL</sc:textLeaf>, <sc:uLink role="url" sc:id="t3" url="http://www.manuelphp.com/php/ref.pgsql.php">http://www.manuelphp.com/php/ref.pgsql.php</sc:uLink>, <sc:textLeaf role="date" sc:id="t11">consulté le 04-2008</sc:textLeaf></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_mhubiche.developpez.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Hubiche Maxence</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Comprendre les jointures dans Access</sc:textLeaf>, <sc:uLink role="url" sc:id="t6" url="http://mhubiche.developpez.com/Access/tutoJointures/">http://mhubiche.developpez.com/Access/tutoJointures/</sc:uLink>, <sc:textLeaf role="date" sc:id="t8">consulté en 2009</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_objecteering</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para>
+						<sc:textLeaf role="title">Objecteering software</sc:textLeaf>. <sc:uLink url="www.objecteering.com" role="url">www.objecteering.com</sc:uLink>. [2002-septembre]. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_postgresqlfr.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">docs.postgresqlfr.org</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Types de données</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://docs.postgresqlfr.org/8.1/datatype.html">http://docs.postgresqlfr.org/8.1/datatype.html</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté le 04-2008</sc:textLeaf></sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_scenari-platform.org02</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3"><sc:textLeaf role="auth" sc:id="t8">Sylvain Spinelli</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t7">WYSIWYM (what you see is what you MEAN)</sc:textLeaf>, <sc:uLink role="url" sc:id="t6" url="http://scenari-platform.org/trac/scenari/wiki/WYSIWYM">http://scenari-platform.org/trac/scenari/wiki/WYSIWYM</sc:uLink>, <sc:textLeaf role="date" sc:id="t4">2006</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_stanford.edu</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Stanford University</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Notes on the Oracle DBMS</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www-db.stanford.edu/~ullman/fcdb/oracle.html">http://www-db.stanford.edu/~ullman/fcdb/oracle.html</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2004</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_supelec.fr/~yb</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t3">
+						<sc:textLeaf role="auth" sc:id="t7">Bourda Yolaine</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Bases de Données Relationnelles et Systèmes de Gestion de Bases de Données Relationnels, le Langage SQL</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://wwwsi.supelec.fr/~yb/poly_bd/">http://wwwsi.supelec.fr/~yb/poly_bd/</sc:uLink>, <sc:textLeaf role="date" sc:id="t4">consulté en 2009</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_sybase</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">Sybase PowerDesigner</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="http://www.sybase.com/products/enterprisemodeling">http://www.sybase.com/products/enterprisemodeling</sc:uLink>, consulté en 2002.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_ualberta.ca</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">University of Alberta</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Computing Science 291/391 : Laboratory Manual</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://ugweb.cs.ualberta.ca/~c391/manual/title.html">http://ugweb.cs.ualberta.ca/~c391/manual/title.html</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">1995</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_uml.free.fr</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">UML en Français</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="uml.free.fr">http://uml.free.fr</sc:uLink>, <sc:textLeaf role="date" sc:id="t5">consulté en 2002</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:op="utc.fr:ics/opale3">
+		<op:bibM>
+			<sp:id>w_univ-lyon2.fr/~jdarmont</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve">
+						<sc:textLeaf role="auth">Darmont Jérôme</sc:textLeaf>. <sc:textLeaf role="title">Tutoriel SQL</sc:textLeaf>. <sc:uLink role="url" url="http://eric.univ-lyon2.fr/~jdarmont/tutoriel-sql/">http://eric.univ-lyon2.fr/~jdarmont/tutoriel-sql/</sc:uLink>. [consulté en 2014]. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3architect.com</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="auth" sc:id="t3">Gaillard Fabrice</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t4">Les bases de données objet</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.w3architect.com/static/people/fgaillard/these/04-LesSGBDO.html">http://www.w3architect.com/static/people/fgaillard/these/04-LesSGBDO.html</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">consulté en 2004</sc:textLeaf>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3c.org</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">World Wide Web Consortium</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="http://www.w3.org">http://www.w3.org</sc:uLink>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3c.org/XML</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">XML</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="http://www.w3.org/XML">http://www.w3.org/XML</sc:uLink>. </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w3c.org/AudioVideo</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">SMIL</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="www.w3.org/AudioVideo">www.w3.org/AudioVideo</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3c.org/standards/xml</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t3">
+						<sc:textLeaf role="auth" sc:id="t7">W3C</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">XML Essentials</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.w3.org/standards/xml/core"> http://www.w3.org/standards/xml/core</sc:uLink>, consulté en <sc:textLeaf role="date" sc:id="t4">2009</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3c.org/TR/2008/REC-xml</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para xml:space="preserve" sc:id="t3">
+						<sc:textLeaf role="auth" sc:id="t7">W3C</sc:textLeaf>, <sc:textLeaf role="title" sc:id="t6">Extensible Markup Language (XML) 1.0 (Fifth Edition)</sc:textLeaf>, <sc:uLink role="url" sc:id="t5" url="http://www.w3.org/TR/2008/REC-xml-20081126/">http://www.w3.org/TR/2008/REC-xml-20081126/</sc:uLink>, consulté en <sc:textLeaf role="date" sc:id="t4">2008</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_w3c.org/html</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t3">HTML</sc:textLeaf>, <sc:uLink role="url" sc:id="t4" url="www.w3.org/MarkUp">http://www.w3.org/html/</sc:uLink>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>w_wikipediaA</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">
+						<sc:textLeaf role="title" sc:id="t4"> Single Source Publishing</sc:textLeaf>, <sc:textLeaf role="auth" sc:id="t5">Wikipédia</sc:textLeaf>, consulté en mai <sc:textLeaf role="date" sc:id="t6">2008</sc:textLeaf> [<sc:uLink role="url" sc:id="t3" url="http://en.wikipedia.org/wiki/Single_source_publishing">http://en.wikipedia.org/wiki/Single_source_publishing</sc:uLink>] </sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>[XSLT, 1999] XSLT.</sp:id>
+			<sp:type>web</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t3">
+						<sc:textLeaf role="title" sc:id="t4">XSLT transformations</sc:textLeaf>. <sc:uLink role="url" sc:id="t5" url="http://www.w3.org/Style/XSL/">http://www.w3.org/Style/XSL/</sc:uLink>, <sc:textLeaf role="date" sc:id="t6">1999</sc:textLeaf>.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
+</sc:item></entry><entry><sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<op:bib xmlns:op="utc.fr:ics/opale3" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive">
+		<op:bibM>
+			<sp:id>Zilio 2004</sp:id>
+			<sp:type>bib</sp:type>
+			<sp:desc>
+				<op:bibTxt>
+					<sc:para sc:id="t2">Jean Zilio, Le guide pratique du pilotage, Éditions Vario, 2004.</sc:para>
+				</op:bibTxt>
+			</sp:desc>
+		</op:bibM>
+	</op:bib>
 </sc:item></entry></file>

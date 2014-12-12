@@ -7,7 +7,8 @@
     xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"
     xmlns:op="utc.fr:ics/opale3"
     xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"
-    xmlns:hdoc="http://www.utc.fr/ics/hdoc/bibtexXm">
+    xmlns:hdoc="http://www.utc.fr/ics/hdoc/bibtexXm"
+    xmlns:fn="http://www.w3.org/2005/xpath-functions">
     <xsl:output indent="yes" method="xml"></xsl:output>
     <xsl:template match="file">
         <hdoc:file>
@@ -23,7 +24,6 @@
     <xsl:template match="sc:item">
         <hdoc:entry> <xsl:attribute name="id"><xsl:value-of select="op:bib/op:bibM/sp:id"></xsl:value-of></xsl:attribute>
             <hdoc:misc>
-            
             <xsl:apply-templates select="op:bib/op:bibM"></xsl:apply-templates>
             </hdoc:misc>
         </hdoc:entry>
@@ -35,9 +35,18 @@
     </xsl:template>
     
     <xsl:template match="sc:para">
-        <hdoc:note><xsl:attribute name="type_of">note</xsl:attribute><xsl:value-of select="child::node()[not(@*)]"></xsl:value-of></hdoc:note>
         <xsl:apply-templates select="./sc:textLeaf"></xsl:apply-templates>
         <xsl:apply-templates select="./sc:uLink"></xsl:apply-templates>
+        <hdoc:note>
+            <xsl:attribute name="type_of">note</xsl:attribute>
+            <xsl:variable name="textin">
+                <xsl:value-of select="child::node()[not(@*)]"></xsl:value-of>
+            </xsl:variable>
+            <xsl:variable name="textOut">
+                <xsl:value-of select="fn:replace($textin, '[^a-zA-Z0-9][\.*,;:\[\]()]', '')"/>
+            </xsl:variable>
+           <xsl:value-of select="$textOut"></xsl:value-of>
+        </hdoc:note>
     </xsl:template>
     
     <xsl:template match="sc:textLeaf[@role='auth']">

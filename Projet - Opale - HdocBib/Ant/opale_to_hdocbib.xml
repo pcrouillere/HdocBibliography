@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir=".." name="main" default="convert">
-    <property name="InputPath" value="${basedir}/source"></property>
+    <property name="InputPath" value="${basedir}/source/ex.scar"></property>
     <property name="OutputPath" value="${basedir}/result/result.xml"></property>
     <target name="preparation">
         <delete dir="${basedir}/result"></delete>
         <delete dir="${basedir}/tmp"></delete>
         <mkdir dir="${basedir}/result"></mkdir>
         <mkdir dir="${basedir}/tmp"></mkdir>
+        <unzip src="${InputPath}" dest="${basedir}/source"/>
     </target>
     
     
@@ -16,7 +17,7 @@
             in="${basedir}/base.xml"
             out="${basedir}/tmp/tmp.xml" 
             xslresource="${basedir}/XSL/getOneDoc.xsl">
-            <param name="Resource" expression="${InputPath}"></param>
+            <!--<param name="Resource" expression="${InputPath}"></param>-->
         </xslt>
     </target>
 
