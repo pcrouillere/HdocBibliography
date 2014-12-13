@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project basedir=".." name="main" default="convert">
     <property name="InputPath" value="C:\\Users\\Pauline\\Documents\\UTC\\GI05 - A14\\NF29\\Projet\\Projet - Bibtex-BibtexXml\\bib2.bib"></property>
-    <property name="OutputPath" value="${basedir}\result"></property>
+    <property name="OutputPath" value="${basedir}\result\ref.scar"></property>
+    
+    <target name="convert">
+        <antcall target="preparation"/>
+        <antcall target="BibtexToBibXml"/>
+        <antcall target="BibXmlToHdocBib"/>
+        <antcall target="HdocToOpale"/>
+        <antcall target="zip"/>
+        <antcall target="CleanDirectory"/>
+    </target>
     
     <target name="preparation">
         <delete dir="${basedir}/result"></delete>
-        <delete dir="${basedir}/tmp"></delete>
         <mkdir dir="${basedir}/result"></mkdir>
+        <mkdir dir="${basedir}/decompressedOpale"></mkdir>
+        <mkdir dir="${basedir}/decompressedOpale/ref"></mkdir>
         <mkdir dir="${basedir}/tmp"></mkdir>
     </target>
     
-    <target name="BibtexToBibXml" depends="preparation">
+    <target name="CleanDirectory">
+        <delete dir="${basedir}/tmp"></delete>
+        <delete dir="${basedir}/java"></delete>
+        <delete dir="${basedir}/decompressedOpale"></delete>
+    </target>
+    
+    
+    <target name="BibtexToBibXml">
         <!-- Convert Bibtex into BibtexXml  -->
         <java
             fork="true"
@@ -23,24 +40,31 @@
         </java>
     </target>
     
-    <target name="BibXmlToHdocBib" depends="BibtexToBibXml">
+    <target name="BibXmlToHdocBib">
         <!-- Convert from BibXlm to HdocBib -->
         <xslt classpath="${basedir}/lib/saxon9he.jar" 
             in="${basedir}\tmp\tmpBibXml.xml" out="${basedir}\tmp\tmpHdocBib.xml" 
             xslresource="${basedir}/XSL/BibToHdoc.xsl"></xslt>
     </target>
     
-    <target name="convert" depends="BibXmlToHdocBib">
+    <target name="HdocToOpale">
         <!-- Convert from HdocBib to Opale -->
         <xslt in="${basedir}\tmp\tmpHdocBib.xml" 
             out="${basedir}/tmp/tempHdoc.xml" 
             xslresource="${basedir}/XSL/SeparateXmlt.xsl">
             <param name="in" expression="${basedir}\tmp\tmpHdocBib.xml"></param>
-            <param name="out" expression="${OutputPath}"></param>
+            <param name="out" expression="${basedir}\decompressedOpale\ref"></param>
         </xslt>
         <ant antfile="${basedir}/tmp/tempHdoc.xml"/>
-        <delete dir="${basedir}/tmp"></delete>
     </target>
+    
+    <target name="zip">
+        <chmod dir="${basedir}/decompressedOpale" perm="777"></chmod>
+        <copy file=".wspmeta" todir="${basedir}/decompressedOpale"/>
+        <zip basedir="decompressedOpale" destfile="${OutputPath}" encoding="UTF-8"/>
+        <chmod dir="${OutputPath}" perm="777"/>
+    </target>
+    
     
     
 </project>
