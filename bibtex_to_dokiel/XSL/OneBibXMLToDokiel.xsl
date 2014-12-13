@@ -43,21 +43,17 @@
                      </dk:bibM>
                      
                  </dk:bib>
-                 <xsl:apply-templates select="child::node()/bib:url"></xsl:apply-templates>
              </sc:item>
         </xsl:if>
      </xsl:for-each>
     </xsl:template>
     
     
-    <xsl:template match="bib:url" xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"  xmlns:dk="kelis.fr:dokiel">
-        <sp:source>
-            <dk:url>
-                <dk:urlM>
-                    <sp:url><xsl:value-of select="."/></sp:url>
-                </dk:urlM>
-            </dk:url>
-        </sp:source>
+    <xsl:template match="bib:url">
+        <sc:uLink role="url" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+            <xsl:attribute name="url"><xsl:value-of select="."/></xsl:attribute>
+            <xsl:value-of select="."/>
+        </sc:uLink>
     </xsl:template>
     
 
