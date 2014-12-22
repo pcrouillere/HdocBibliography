@@ -370,13 +370,28 @@
   <optional>
     <ref name="Author"></ref>
   </optional>
-  <optional><ref name="Title"></ref></optional>
+      <optional>
+        <ref name="Editor"></ref>
+      </optional>
+  <optional><ref name="Title"></ref></optional>   
   <optional><ref name="HowPublished"></ref></optional>
   <optional><ref name="Month"></ref></optional>
   <optional><ref name="Year"></ref></optional>
   <optional><oneOrMore><ref name="Note"></ref></oneOrMore></optional>
   <optional><ref name="Key"></ref></optional>
       <optional><ref name="Url"></ref></optional>
+      <optional><ref name="BookTitle"></ref></optional>
+      <optional><ref name="School"></ref></optional>
+      <optional><ref name="Organization"></ref></optional>
+      <optional><ref name="Series"></ref></optional>
+      <optional><ref name="Isbn"></ref></optional>
+      <optional><ref name="Edition"></ref></optional>
+      <optional><ref name="Address"></ref></optional>
+      <optional><ref name="Publisher"></ref></optional>
+      <optional><ref name="Journal"></ref></optional>
+      <optional><ref name="Volume"></ref></optional>
+      <optional><ref name="Number"></ref></optional>
+      <optional><ref name="Pages"></ref></optional>
     </interleave>
   </element>
 </define>
@@ -502,9 +517,11 @@
   </define>
 
   <define name="Editor">
+    <oneOrMore>
     <element name="editor">
       <text/>
     </element>
+    </oneOrMore>
   </define>
   
   <define name="Institution">

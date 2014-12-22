@@ -2,9 +2,21 @@
 <project basedir=".." name="main" default="convert">
     <property name="InputPath" value="${basedir}/source/ex.scar"></property>
     <property name="OutputPath" value="${basedir}/result/result.xml"></property>
+    
+    
+    <target name="convert">
+        <antcall target="preparation"/>
+        <antcall target="createxml"/>
+        <antcall target="opale_to_hdoc"/>
+        <antcall target="cleanDirectory"/>
+    </target>
+    
+    <target name="cleanDirectory">
+        <delete dir="${basedir}/tmp"></delete>
+    </target>
+    
     <target name="preparation">
         <delete dir="${basedir}/result"></delete>
-        <delete dir="${basedir}/tmp"></delete>
         <mkdir dir="${basedir}/result"></mkdir>
         <mkdir dir="${basedir}/tmp"></mkdir>
         <mkdir dir="${basedir}/tmp/source"></mkdir>
@@ -12,7 +24,7 @@
     </target>
     
     
-    <target name="createxml" depends="preparation">
+    <target name="createxml">
         <xslt 
             classpath="${basedir}/lib/saxon9ee.jar"
             in="${basedir}/base.xml"
@@ -22,13 +34,12 @@
     </target>
     
     
-    <target name="convert" depends="createxml">
+    <target name="opale_to_hdoc">
         <xslt 
             classpath="${basedir}/lib/saxon9ee.jar"
             in="${basedir}/tmp/tmp.xml"
             out="${OutputPath}" 
             xslresource="${basedir}/XSL/OpaleHdoc.xsl"></xslt>
-        
     </target>
     
 </project>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".." name="main" default="convert">
+    <property name="InputPath" value="bib2.bib"></property>
+    <property name="OutputPath" value="${basedir}/result"></property>
+    <property name="TargetName" value="all"></property>
+    
+    <target name="convert">
+        <antcall target="preparation"/>
+        <antcall target="BibtexToBibXml"/>
+        <antcall target="BibXmlToHdocBib"/>
+        <antcall target="${TargetName}"></antcall>
+        <antcall target="CleanDirectory"/>
+    </target>
+    
+    <target name="preparation">
+        <delete dir="${basedir}/result"></delete>
+        <delete dir="${basedir}/tmp"></delete>
+        <delete dir="${basedir}/java"></delete>
+        <mkdir dir="${basedir}/result"></mkdir>
+        <mkdir dir="${basedir}/tmp"></mkdir>
+    </target>
+    
+    <target name="all">
+        <antcall target="dokiel"></antcall>
+        <antcall target="opale"></antcall>
+        <antcall target="optim"></antcall>
+    </target>
+    
+    <target name="dokiel">
+        <antcall target="HdocToDokiel"/>
+     </target>
+    
+    <target name="opale">
+        <antcall target="HdocToOpale"/>
+    </target>
+    
+    <target name="optim">
+        <antcall target="HdocToOptim"/>
+    </target>
+    
+    <target name="CleanDirectory">
+       <delete dir="${basedir}/tmp"></delete>
+        <delete dir="${basedir}/java"></delete>
+        <delete dir="${basedir}/decompressedDokiel"></delete>
+        <delete dir="${basedir}/decompressedOpale"></delete>
+        <delete dir="${basedir}/decompressedOptim"></delete>
+    </target>
+    
+    
+    <target name="BibtexToBibXml">
+        <!-- Convert Bibtex into BibtexXml  -->
+        <java
+            fork="true"
+            failonerror="true" 
+            jar="lib/bibtex.jar"
+            >
+            <arg value="${InputPath}"/>
+            <arg value="${basedir}/tmp"/>
+            <arg value="//tmpBibXml.xml"/>
+        </java>
+        
+    </target>
+    
+    <target name="BibXmlToHdocBib">
+        <!-- Convert from BibXlm to HdocBib -->
+        <xslt classpath="${basedir}/lib/saxon9he.jar" 
+            in="${basedir}/tmp/tmpBibXml.xml" out="${basedir}/tmp/tmpHdocBib.xml" 
+            xslresource="${basedir}/XSL/BibToHdoc.xsl"></xslt>
+        <copy file="${basedir}/tmp/tmpHdocBib.xml" todir="${basedir}/result"/>
+    </target>
+    
+    <target name="HdocToDokiel">
+        <!-- Convert from HdocBib to Dokiel -->
+        <xslt in="${basedir}/tmp/tmpHdocBib.xml" 
+            out="${basedir}/tmp/tempHdocDokiel.xml" 
+            xslresource="${basedir}/XSL/SeparateXmlt.xsl">
+            <param name="in" expression="${basedir}/tmp/tmpHdocBib.xml"></param>
+            <param name="out" expression="${basedir}/decompressedDokiel/ref"></param>
+            <param name="xslFile" expression="./XSL/OneBibXMLToDokiel.xsl"></param>
+            <param name="xslOutput" expression="ref"></param>
+        </xslt>
+        <ant antfile="${basedir}/tmp/tempHdocDokiel.xml"/>
+        <antcall target="zipDokiel"></antcall>
+    </target>
+    
+    <target name="zipDokiel">
+        <chmod dir="${basedir}/decompressedDokiel" perm="777"></chmod>
+        <copy file="dokiel/.wspmeta" todir="${basedir}/decompressedDokiel"/>
+        <zip basedir="decompressedDokiel" destfile="${OutputPath}/refDokiel.scar" encoding="UTF-8"/>
+        <chmod dir="${OutputPath}" perm="777"/>
+    </target>
+    
+    <target name="HdocToOpale">
+        <!-- Convert from HdocBib to Opale -->
+        <xslt in="${basedir}/tmp/tmpHdocBib.xml" 
+            out="${basedir}/tmp/tempHdocOpale.xml" 
+            xslresource="${basedir}/XSL/SeparateXmlt.xsl">
+            <param name="in" expression="${basedir}/tmp/tmpHdocBib.xml"></param>
+            <param name="out" expression="${basedir}/decompressedOpale/ref"></param>
+            <param name="xslFile" expression="./XSL/OneBibXMLToOpale.xsl"></param>
+            <param name="xslOutput" expression="ref"></param>
+        </xslt>
+        <ant antfile="${basedir}/tmp/tempHdocOpale.xml"/>
+        <antcall target="zipOpale"></antcall>
+    </target>
+    
+    <target name="zipOpale">
+        <chmod dir="${basedir}/decompressedOpale" perm="777"></chmod>
+        <copy file="opale/.wspmeta" todir="${basedir}/decompressedOpale"/>
+        <zip basedir="decompressedOpale" destfile="${OutputPath}/refOpale.scar" encoding="UTF-8"/>
+        <chmod dir="${OutputPath}" perm="777"/>
+    </target>
+    
+    <target name="HdocToOptim">
+    <!-- Convert from HdocBib to Optim -->
+    <xslt in="${basedir}/tmp/tmpHdocBib.xml" 
+        out="${basedir}/tmp/tempHdocOptim.xml" 
+        xslresource="${basedir}/XSL/SeparateXmlt.xsl">
+        <param name="in" expression="${basedir}/tmp/tmpHdocBib.xml"></param>
+        <param name="out" expression="${basedir}/decompressedOptim/ref"></param>
+        <param name="xslFile" expression="./XSL/OneBibXMLToOptim.xsl"></param>
+        <param name="xslOutput" expression="refs"></param>
+    </xslt>
+    <ant antfile="${basedir}/tmp/tempHdocOptim.xml"/>
+    <antcall target="zipOptim"></antcall>
+    </target>
+    
+    <target name="zipOptim">
+        <chmod dir="${basedir}/decompressedOptim" perm="777"></chmod>
+        <copy file="optim/.wspmeta" todir="${basedir}/decompressedOptim"/>
+        <zip basedir="decompressedOptim" destfile="${OutputPath}/refOptim.scar" encoding="UTF-8"/>
+        <chmod dir="${OutputPath}" perm="777"/>
+    </target>
+</project>
