@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdoc:file xmlns:bib="http://www.utc.fr/ics/hdoc/bibtexXm"
+           xmlns:sc="http://www.utc.fr/ics/scenari/v3/core"
+           xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"
+           xmlns:hdoc="http://www.utc.fr/ics/hdoc/bibtexXm"
+           xmlns:fn="http://www.w3.org/2005/xpath-functions"
+           xmlns:dk="kelis.fr:dokiel">
+	
+		<hdoc:entry id="bush_as_1945">
+      <hdoc:misc>
+				     <hdoc:author>Bush, Vannevar</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>1945</hdoc:year>
+         <hdoc:title>As we may think</hdoc:title>
+         <hdoc:note type_of="note">
+                                   
+                                 
+        Volume</hdoc:note>
+         <hdoc:url>http://cestuneurl.com</hdoc:url>
+         <hdoc:note type_of="note">
+                                     
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+                                  
+                                 
+        Journal The atlantic monthly  176  
+                                 
+        Volume 1  
+                                 
+                                 
+        Pages 101-108 
+                                  
+                                 
+                                                                
+                                  
+                                      
+                                 </hdoc:note>
+			   </hdoc:misc>
+   </hdoc:entry>
+	
+
+
+   <hdoc:entry id="crozat_chaines_2012">
+      <hdoc:misc>
+         <hdoc:author>Crozat, Stéphane</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>2012</hdoc:year>
+         <hdoc:title>Chaînes éditoriales et rééditorialisation de contenus numériques</hdoc:title>
+         <hdoc:title>Le document numérique à l'heure du web</hdoc:title>
+         <hdoc:editor>Calderan, Lisette </hdoc:editor>
+         <hdoc:editor>Laurent, Pascale </hdoc:editor>
+         <hdoc:editor>Lowinger, Hélène </hdoc:editor>
+         <hdoc:editor>Millet, Jacques</hdoc:editor>
+         <hdoc:editor>{ADBS}</hdoc:editor>
+         <hdoc:url>https://hal.inria.fr/hal-00740268</hdoc:url>
+         <hdoc:note type_of="note">
+                                     
+                                 
+                                 
+                                 
+                                 
+
+
+
+                                 
+                                  
+                                 
+                                  
+                                  
+                                   
+                                   
+                                   
+                                 
+                                 
+        Pages 179-220 
+                                  
+                                 
+                                                                
+                                  
+                                 
+        Note Chapitre 08 Chaînes éditoriales et rééditorialisation de contenus numériques     
+                                 </hdoc:note>
+      </hdoc:misc>
+   </hdoc:entry>
+
+
+
+   <hdoc:entry id="gonzales-aguilar_scenari-opale_2012">
+      <hdoc:misc>
+         <hdoc:author>Gonzales-Aguilar, Audilio </hdoc:author>
+         <hdoc:author>Ramírez-Posada, María </hdoc:author>
+         <hdoc:author>Crozat, Stéphane</hdoc:author>
+         <hdoc:note type_of="date">July </hdoc:note>
+         <hdoc:year>2012</hdoc:year>
+         <hdoc:title>Scenari-Opale : cadena editorial digital para la producción de contenidos e-learning</hdoc:title>
+         <hdoc:url>http://elprofesionaldelainformacion.metapress.com/openurl.asp?genre=article&amp;id=doi:10.3145/epi.2012.jul.17</hdoc:url>
+         <hdoc:note type_of="note">
+                                     
+
+
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+                                  
+                                 
+        Journal El Profesional de la Informacion 
+                                   
+                                 
+        Volume 21  
+                                 
+        Volume 4  
+                                 
+                                 
+        Pages 433-438 
+                                  
+                                 
+                                                                
+                                  
+                                 
+        Note 1386-6710
+        Note Scenari-Opale
+        Note 10.3145/epi.2012.jul.17
+        Note 2014-11-06     
+                                 </hdoc:note>
+      </hdoc:misc>
+   </hdoc:entry>
+
+
+
+   <hdoc:entry id="goody_domestication_1977">
+      <hdoc:misc>
+         <hdoc:author>Goody, Jack</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>1977</hdoc:year>
+         <hdoc:title>The domestication of the savage mind</hdoc:title>
+         <hdoc:editor>Cambridge University Press</hdoc:editor>
+         <hdoc:note type_of="note">
+                                     
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+                                  
+                                  
+                                   
+                                   
+                                   
+                                 
+                                  
+                                  
+                                 
+                                                                
+                                  
+                                      
+                                 </hdoc:note>
+      </hdoc:misc>
+   </hdoc:entry>
+
+
+
+   <hdoc:entry id="goody_raison_1979">
+      <hdoc:misc>
+         <hdoc:author>Goody, Jack </hdoc:author>
+         <hdoc:author>Bazin, Jean </hdoc:author>
+         <hdoc:author>Bensa, Alban</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>1979</hdoc:year>
+         <hdoc:title>La raison graphique: la domestication de la pensée sauvage.</hdoc:title>
+         <hdoc:note type_of="note">
+                                     
+
+
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+                                  
+                                  
+                                   
+                                   
+                                   
+                                 
+                                  
+                                  
+                                 
+                                                                
+                                  
+                                      
+                                 </hdoc:note>
+      </hdoc:misc>
+   </hdoc:entry>
+
+</hdoc:file>

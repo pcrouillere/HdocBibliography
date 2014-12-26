@@ -22,7 +22,10 @@
     
     
     <xsl:template match="sc:item">
-        <hdoc:entry> <xsl:attribute name="id"><xsl:value-of select="op:bib/op:bibM/sp:id"></xsl:value-of></xsl:attribute>
+        <hdoc:entry> <xsl:attribute name="id">
+            <xsl:variable name="idToClean"><xsl:value-of select="op:bib/op:bibM/sp:id"></xsl:value-of></xsl:variable>
+            <xsl:value-of select="fn:replace($idToClean, '[\.*,;:\[\]() /\\~;'']', '')"/>
+        </xsl:attribute>
             <hdoc:misc>
             <xsl:apply-templates select="op:bib/op:bibM"></xsl:apply-templates>
             </hdoc:misc>
