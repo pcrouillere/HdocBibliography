@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><myns:file xmlns:myns="http://www.utc.fr/ics/hdoc/bibtexXm">
+  
+  <myns:entry id="goody_raison_1979">
+    <myns:article>
+      <myns:title>La raison graphique: la domestication de la pensée sauvage.</myns:title>
+      <myns:author>Goody, Jack</myns:author>
+      <myns:author>Bazin, Jean</myns:author>
+      <myns:author>Bensa, Alban</myns:author>
+      <myns:year>1979</myns:year>
+    </myns:article>
+  </myns:entry>
+  <myns:entry id="crozat_chaines_2012">
+    <myns:incollection>
+      <myns:title>Chaînes éditoriales et rééditorialisation de contenus numériques</myns:title>
+      <myns:url>https://hal.inria.fr/hal-00740268</myns:url>
+      <myns:booktitle>Le document numérique à l'heure du web</myns:booktitle>
+      <myns:publisher>{ADBS}</myns:publisher>
+      <myns:author>Crozat, Stéphane</myns:author>
+      <myns:editor>Calderan, Lisette</myns:editor>
+      <myns:editor>Laurent, Pascale</myns:editor>
+      <myns:editor>Lowinger, Hélène</myns:editor>
+      <myns:editor>Millet, Jacques</myns:editor>
+      <myns:year>2012</myns:year>
+      <myns:note type_of="note">Chapitre 08 : Chaînes éditoriales et rééditorialisation de contenus numériques</myns:note>
+      <myns:pages>179-220</myns:pages>
+    </myns:incollection>
+  </myns:entry>
+  <myns:entry id="bush_as_1945">
+    <myns:article>
+      <myns:title>As we may think</myns:title>
+      <myns:volume>176</myns:volume>
+      <myns:number>1</myns:number>
+      <myns:journal>The atlantic monthly</myns:journal>
+      <myns:author>Bush, Vannevar</myns:author>
+      <myns:year>1945</myns:year>
+      <myns:pages>101-108</myns:pages>
+    </myns:article>
+  </myns:entry>
+  <myns:entry id="goody_domestication_1977">
+    <myns:book>
+      <myns:title>The domestication of the savage mind</myns:title>
+      <myns:publisher>Cambridge University Press</myns:publisher>
+      <myns:author>Goody, Jack</myns:author>
+      <myns:year>1977</myns:year>
+    </myns:book>
+  </myns:entry>
+  <myns:entry id="gonzales-aguilar_scenari-opale_2012">
+    <myns:article>
+      <myns:title>Scenari-Opale : cadena editorial digital para la producción de contenidos e-learning</myns:title>
+      <myns:volume>21</myns:volume>
+      <myns:note type_of="issn">1386-6710</myns:note>
+      <myns:note type_of="shorttitle">Scenari-Opale</myns:note>
+      <myns:url>http://elprofesionaldelainformacion.metapress.com/openurl.asp?genre=article&amp;id=doi:10.3145/epi.2012.jul.17</myns:url>
+      <myns:note type_of="doi">10.3145/epi.2012.jul.17</myns:note>
+      <myns:number>4</myns:number>
+      <myns:note type_of="urldate">2014-11-06</myns:note>
+      <myns:journal>El Profesional de la Informacion</myns:journal>
+      <myns:author>Gonzales-Aguilar, Audilio</myns:author>
+      <myns:author>Ramírez-Posada, María</myns:author>
+      <myns:author>Crozat, Stéphane</myns:author>
+      <myns:month>July</myns:month>
+      <myns:year>2012</myns:year>
+      <myns:pages>433-438</myns:pages>
+    </myns:article>
+  </myns:entry>
+</myns:file>

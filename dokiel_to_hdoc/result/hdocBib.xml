@@ -5,18 +5,13 @@
            xmlns:hdoc="http://www.utc.fr/ics/hdoc/bibtexXm"
            xmlns:fn="http://www.w3.org/2005/xpath-functions"
            xmlns:dk="kelis.fr:dokiel">
-	
-		<hdoc:entry id="bush_as_1945">
+
+   <hdoc:entry id="bush_as_1945">
       <hdoc:misc>
-				     <hdoc:author>Bush, Vannevar</hdoc:author>
+         <hdoc:author>Bush, Vannevar</hdoc:author>
          <hdoc:note type_of="date"> </hdoc:note>
          <hdoc:year>1945</hdoc:year>
          <hdoc:title>As we may think</hdoc:title>
-         <hdoc:note type_of="note">
-                                   
-                                 
-        Volume</hdoc:note>
-         <hdoc:url>http://cestuneurl.com</hdoc:url>
          <hdoc:note type_of="note">
                                      
                                  
@@ -28,7 +23,10 @@
                                  
                                   
                                  
-        Journal The atlantic monthly  176  
+        Journal The atlantic monthly 
+                                   
+                                 
+        Volume 176  
                                  
         Volume 1  
                                  
@@ -40,9 +38,9 @@
                                   
                                       
                                  </hdoc:note>
-			   </hdoc:misc>
+      </hdoc:misc>
    </hdoc:entry>
-	
+
 
 
    <hdoc:entry id="crozat_chaines_2012">

@@ -362,7 +362,7 @@
 <!-- 
     [misc] Use this type when nothing else fits.  
     -  Required fields: none.
-    -  Optional fields: author, title, howpublished, month, year, note.
+    -  Optional fields: all the other field.
   -->
   <define name="Misc">
   <element name="misc">
@@ -392,6 +392,9 @@
       <optional><ref name="Volume"></ref></optional>
       <optional><ref name="Number"></ref></optional>
       <optional><ref name="Pages"></ref></optional>
+      <optional><ref name="Institution"></ref></optional>
+      <optional><ref name="Type"></ref></optional>
+      <optional><ref name="Chapter"></ref></optional>
     </interleave>
   </element>
 </define>
