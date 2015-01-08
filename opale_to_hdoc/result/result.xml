@@ -5,1515 +5,188 @@
            xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive"
            xmlns:hdoc="http://www.utc.fr/ics/hdoc/bibtexXm"
            xmlns:fn="http://www.w3.org/2005/xpath-functions">
-   <hdoc:entry id="Abbey01">
+   <hdoc:entry id="bush_as_1945">
       <hdoc:misc>
-         <hdoc:author>Abbey Michael, Corez Michael, Abramson Ian</hdoc:author>
-         <hdoc:title>Oracle 9i : Notions fondamentales</hdoc:title>
-         <hdoc:editor>CampusPress</hdoc:editor>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Allen80">
-      <hdoc:misc>
-         <hdoc:author>Newell Allen</hdoc:author>
-         <hdoc:title>Physical symbol systems</hdoc:title>
-         <hdoc:editor>Cognitive Science</hdoc:editor>
-         <hdoc:year>1980</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="André89">
-      <hdoc:misc>
-         <hdoc:author>Jacques André, Richard Furuta, Vincent Quint</hdoc:author>
-         <hdoc:title>Structured documents</hdoc:title>
-         <hdoc:editor>Cambridge University Press</hdoc:editor>
-         <hdoc:note type_of="note">,  1989.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="AuteurYYYY">
-      <hdoc:misc>
-         <hdoc:author>Nom, Prenom</hdoc:author>
-         <hdoc:note type_of="date">YYYY</hdoc:note>
-         <hdoc:title>Titre</hdoc:title>
-         <hdoc:editor>Édition</hdoc:editor>
-         <hdoc:note type_of="note"/>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont00">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Indexation audiovisuelle : une problématique en pleine évolution</hdoc:title>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">
-					 L'Objet 6, 2. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont01">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Du texte à l'hypotexte</hdoc:title>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="date">-</hdoc:note>
-         <hdoc:note type_of="note">
-					 Technologie, Idéologies, Pratiques. spéciale "mémoires collectives </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont04">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Arts et sciences du numérique : ingénierie des connaissances et critique de la raison computationnelle</hdoc:title>
-         <hdoc:editor>Université de Technologie de Compiègne</hdoc:editor>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:note type_of="note">
-					 Mémoire de HDR, </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont04b">
-      <hdoc:misc>
-         <hdoc:author>Bruno Bachimont</hdoc:author>
-         <hdoc:author>Stéphane Crozat</hdoc:author>
-         <hdoc:title>Instrumentation numérique des documents : pour une séparation fonds/forme</hdoc:title>
-         <hdoc:editor>revue I3, vol 4, num 1</hdoc:editor>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://archivesic.ccsd.cnrs.fr/sic_00001017.html</hdoc:url>
-         <hdoc:note type_of="note">
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont07">
-      <hdoc:misc>
-         <hdoc:author>Bruno Bachimont</hdoc:author>
-         <hdoc:title>Ingénierie des connaissances et des contenus : le numérique entre ontologies et documents</hdoc:title>
-         <hdoc:editor>Lavoisier, Hermès</hdoc:editor>
-         <hdoc:year>2007</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont2008">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Bachimont B.2008 Audiovisuel et numérique la reconstruction éditoriale des contenus. In "Métadonnées mutations et perspectives coord. L. Calderan, B. Hidoine, J. Millet. ADBS éditions.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont96">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Herméneutique matérielle et artéfacture</hdoc:title>
-         <hdoc:year>1996</hdoc:year>
-         <hdoc:note type_of="note">
-					 Thèse en épistémologie, </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont98">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:author>Charlet Jean</hdoc:author>
-         <hdoc:title>PolyTex : un environnement pour l'édition structurée de polycopiés électroniques multisupports</hdoc:title>
-         <hdoc:year>1998</hdoc:year>
-         <hdoc:note type_of="note">
-					 EuroTex'98, </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bachimont99">
-      <hdoc:misc>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Herméneutique du support et ingénierie des connaissances : de la différance numérique</hdoc:title>
-         <hdoc:editor/>
-         <hdoc:year>1999</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Briet1951">
-      <hdoc:misc>
-         <hdoc:url>http://martinetl.free.fr/suzannebriet/questcequeladocumentation/</hdoc:url>
-         <hdoc:note type_of="note">Briet S.1951 Qu'est ce que la documentation  ÉDIT. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Brillant07">
-      <hdoc:misc>
-         <hdoc:author>Alexandre Brillant</hdoc:author>
-         <hdoc:title>XML : Cours et exercices</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2007</hdoc:year>
-         <hdoc:note type_of="note">, ISBN 978-2212126914]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bruillard97">
-      <hdoc:misc>
-         <hdoc:author>Bruillard Eric</hdoc:author>
-         <hdoc:title>Les machines à enseigner</hdoc:title>
-         <hdoc:editor>Hermès</hdoc:editor>
-         <hdoc:year>1997</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bruner60">
-      <hdoc:misc>
-         <hdoc:author>Bruner J.</hdoc:author>
-         <hdoc:title>The process of education</hdoc:title>
-         <hdoc:editor>Harvard University Press</hdoc:editor>
-         <hdoc:year>1960</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Buckland1983">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Buckland M. K.1983, 1988 Library services in theory and context. Second edition. Pergamon Press.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Buckland1992">
-      <hdoc:misc>
-         <hdoc:url>http://sunsite.berkeley.edu/Literature/Library/Redesigning/html.html</hdoc:url>
-         <hdoc:note type_of="note">Buckland M. K.1992 Redesigning Library Services: A Manifesto. The American Library Association. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Bush45">
-      <hdoc:misc>
-         <hdoc:author>Bush V.</hdoc:author>
-         <hdoc:title>As we may think</hdoc:title>
+         <hdoc:author>Bush, Vannevar</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
          <hdoc:year>1945</hdoc:year>
+         <hdoc:title>As we may think</hdoc:title>
          <hdoc:note type_of="note">
-					 The atlantic monthly, 176, pp101-108, </hdoc:note>
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+        Journal The atlantic monthly 
+                                  
+                                 
+        Volume 176  
+                                 
+        Volume 1  
+                                 
+                                 
+        Pages 101-108 
+                                 
+                                 
+                                                                
+                                  
+                                      
+                             </hdoc:note>
       </hdoc:misc>
    </hdoc:entry>
-   <hdoc:entry id="Celko00">
+   <hdoc:entry id="crozat_chaines_2012">
       <hdoc:misc>
-         <hdoc:author>Celko Joe</hdoc:author>
-         <hdoc:title>SQL avancé : Programmation et techniques avancées</hdoc:title>
-         <hdoc:editor>Vuibert</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
+         <hdoc:author>Crozat, Stéphane</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>2012</hdoc:year>
+         <hdoc:title>Chaînes éditoriales et rééditorialisation de contenus numériques</hdoc:title>
+         <hdoc:title>Le document numérique à l'heure du web</hdoc:title>
+         <hdoc:editor>Calderan, Lisette </hdoc:editor>
+         <hdoc:editor>Laurent, Pascale </hdoc:editor>
+         <hdoc:editor>Lowinger, Hélène </hdoc:editor>
+         <hdoc:editor>Millet, Jacques</hdoc:editor>
+         <hdoc:editor>{ADBS}</hdoc:editor>
+         <hdoc:url>https://hal.inria.fr/hal-00740268</hdoc:url>
          <hdoc:note type_of="note">
-					 </hdoc:note>
+                                 
+                                 
+                                 
+                                 
+                                 
+
+
+
+                                 
+                                 
+                                 
+                                  
+                                  
+                                  
+                                   
+                                   
+                                 
+                                 
+        Pages 179-220 
+                                 
+                                 
+                                                                
+                                  
+                                 
+        Note Chapitre 08 Chaînes éditoriales et rééditorialisation de contenus numériques     
+                             </hdoc:note>
       </hdoc:misc>
    </hdoc:entry>
-   <hdoc:entry id="Chaumier1996">
+   <hdoc:entry id="gonzales-aguilar_scenari-opale_2012">
       <hdoc:misc>
-         <hdoc:author>Jacques Chaumier</hdoc:author>
-         <hdoc:title>La gestion électronique de documents</hdoc:title>
-         <hdoc:editor>Que sais-je ?</hdoc:editor>
-         <hdoc:year>1996</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Chen76">
-      <hdoc:misc>
-         <hdoc:author>Chen P.P</hdoc:author>
-         <hdoc:title>The Entity-Relationsheep Model - Towards a Unified View of Data</hdoc:title>
-         <hdoc:editor>ACM Transactions on Database systems, 1-1</hdoc:editor>
-         <hdoc:year>1976</hdoc:year>
+         <hdoc:author>Gonzales-Aguilar, Audilio </hdoc:author>
+         <hdoc:author>Ramírez-Posada, María </hdoc:author>
+         <hdoc:author>Crozat, Stéphane</hdoc:author>
+         <hdoc:note type_of="date">July </hdoc:note>
+         <hdoc:year>2012</hdoc:year>
+         <hdoc:title>Scenari-Opale : cadena editorial digital para la producción de contenidos e-learning</hdoc:title>
+         <hdoc:url>http://elprofesionaldelainformacion.metapress.com/openurl.asp?genre=article&amp;id=doi:10.3145/epi.2012.jul.17</hdoc:url>
          <hdoc:note type_of="note">
-					</hdoc:note>
+                                 
+
+
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                 
+        Journal El Profesional de la Informacion 
+                                  
+                                 
+        Volume 21  
+                                 
+        Volume 4  
+                                 
+                                 
+        Pages 433-438 
+                                 
+                                 
+                                                                
+                                  
+                                 
+        Note 1386-6710
+        Note Scenari-Opale
+        Note 10.3145/epi.2012.jul.17
+        Note 2014-11-06     
+                             </hdoc:note>
       </hdoc:misc>
    </hdoc:entry>
-   <hdoc:entry id="Choppyetal2011">
+   <hdoc:entry id="goody_domestication_1977">
       <hdoc:misc>
-         <hdoc:url>http://www.smile.fr</hdoc:url>
-         <hdoc:note type_of="note">Choppy T Nerden P Zysman H.2011 Gestion documentaire le meilleur des solutions open source. Smile. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Christensen97">
-      <hdoc:misc>
-         <hdoc:author>Clayton Christensen</hdoc:author>
-         <hdoc:title>The Innovator's Dilemma</hdoc:title>
-         <hdoc:editor>Harvard Business School Press</hdoc:editor>
-         <hdoc:year>1997</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Clement98">
-      <hdoc:misc>
-         <hdoc:author>Clément Jean</hdoc:author>
-         <hdoc:title>Du livre au texte</hdoc:title>
-         <hdoc:year>1998</hdoc:year>
+         <hdoc:author>Goody, Jack</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
+         <hdoc:year>1977</hdoc:year>
+         <hdoc:title>The domestication of the savage mind</hdoc:title>
+         <hdoc:editor>Cambridge University Press</hdoc:editor>
          <hdoc:note type_of="note">
-					 Sciences et Techniques Educatives, 5, 4.</hdoc:note>
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                  
+                                  
+                                   
+                                   
+                                 
+                                  
+                                 
+                                 
+                                                                
+                                  
+                                      
+                             </hdoc:note>
       </hdoc:misc>
    </hdoc:entry>
-   <hdoc:entry id="Codd70">
+   <hdoc:entry id="goody_raison_1979">
       <hdoc:misc>
-         <hdoc:author>Codd EF</hdoc:author>
-         <hdoc:title>A relational model for large shared data banks</hdoc:title>
-         <hdoc:editor>Communications de l'ACM</hdoc:editor>
-         <hdoc:note type_of="date">juin </hdoc:note>
-         <hdoc:year>1970</hdoc:year>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="CouillaultLeFoll2007">
-      <hdoc:misc>
-         <hdoc:author>Couillault A., Le Foll L.</hdoc:author>
-         <hdoc:title>Livre Blanc : Valorisation de l'information non-structurée</hdoc:title>
-         <hdoc:url>http://www.aproged.org/index.php/Demarrer-telechargement/Publications/6-Livre-Blanc-Valorisation-de-l-information-non-structuree.html</hdoc:url>
-         <hdoc:note type_of="note">
-						2007 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Crozat02">
-      <hdoc:misc>
-         <hdoc:author>Crozat Stéphane</hdoc:author>
-         <hdoc:title>Eléments pour la conception industrialisée des supports pédagogiques numériques.</hdoc:title>
-         <hdoc:note type_of="note">
-					  p. Mémoire de thèse en informatique Université de Technologie de Compiègne. 2002. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Crozat04">
-      <hdoc:misc>
-         <hdoc:author>Crozat Stéphane</hdoc:author>
-         <hdoc:author>Bachimont Bruno</hdoc:author>
-         <hdoc:title>Réinterroger les structures documentaires : de la numérisation à l'informatisation.</hdoc:title>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:note type_of="note">
-					 I3. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Crozat2007">
-      <hdoc:misc>
-         <hdoc:author> Christophe Campanaud, Stéphane Crozat, Manuel Majada</hdoc:author>
-         <hdoc:title>Base de contenus pédagogiques structurés : retour sur 8 ans d'expérience</hdoc:title>
-         <hdoc:editor>iLearning Forum 2007</hdoc:editor>
-         <hdoc:year>2007</hdoc:year>
-         <hdoc:url>http://www.eife-l.org/publications/proceedings/ilf07/Contribution146_a.pdf</hdoc:url>
-         <hdoc:note type_of="note">
-					 Paris,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Crozatetal2011">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Crozat S Bachimont B Cailleau I Bouchardon S Gaillard L.2011 Éléments pour une théorie opérationnelle de l'écriture numérique. Document Numérique, vol 14, num 3. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Crozat2012">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Crozat S.2012 Chaînes éditoriales et rééditorialisation de contenus numériques. In "Le document numérique à l'heure du web de données coord. L. Calderan. ADBS éditions.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Delmal01">
-      <hdoc:misc>
-         <hdoc:author>Delmal Pierre</hdoc:author>
-         <hdoc:title>SQL2 SQL3, applications à Oracle</hdoc:title>
-         <hdoc:editor>De Boeck Université</hdoc:editor>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="DiLorio06">
-      <hdoc:misc>
-         <hdoc:author>Di Lorio A, Zacchiroli S</hdoc:author>
-         <hdoc:title>Constrained wiki: an oxymoron?</hdoc:title>
-         <hdoc:editor>WikiSym'06</hdoc:editor>
-         <hdoc:year>2006</hdoc:year>
-         <hdoc:note type_of="note">
-					 In Proceedings of the 2006 international symposium on Wikis, pages 89–98, New York, USA,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Dubois04">
-      <hdoc:misc>
-         <hdoc:author>Dubois Paul</hdoc:author>
-         <hdoc:author>Hinz Stefan</hdoc:author>
-         <hdoc:author>Pedersen Carsten</hdoc:author>
-         <hdoc:title>MySQL : Guide officiel</hdoc:title>
-         <hdoc:editor>CampuPress</hdoc:editor>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:note type_of="note">
-					 ISBN 2-7440-1782-5. Paris 702 p. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Dupoirier1995">
-      <hdoc:misc>
-         <hdoc:author>Gérard Dupoirier</hdoc:author>
-         <hdoc:title>Technologie de la GED : Techniques et management des documents électroniques</hdoc:title>
-         <hdoc:editor>Hermes</hdoc:editor>
-         <hdoc:year>1995</hdoc:year>
-         <hdoc:note type_of="note"/>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Eckstein00">
-      <hdoc:misc>
-         <hdoc:author>Robert Eckstein, Michel Casabianca</hdoc:author>
-         <hdoc:title>XML précis &amp; concis</hdoc:title>
-         <hdoc:editor>O'Reilly</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Edlich02">
-      <hdoc:misc>
-         <hdoc:author>Stefan Edlich</hdoc:author>
-         <hdoc:title>Ant précis &amp; concis</hdoc:title>
-         <hdoc:editor>O'Reilly</hdoc:editor>
-         <hdoc:year>2002</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Ford01">
-      <hdoc:misc>
-         <hdoc:author>Ford Andrew</hdoc:author>
-         <hdoc:title>Apache précis et concis</hdoc:title>
-         <hdoc:editor>O'REILLY</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">
-					 ISBN 2-84177-11. France 125 p. Précis et concis. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Foucault96">
-      <hdoc:misc>
-         <hdoc:author>Foucault Odile</hdoc:author>
-         <hdoc:author>Thiéry Odile</hdoc:author>
-         <hdoc:author>Kamel Smaïli</hdoc:author>
-         <hdoc:title>Conception des systèmes d'information et programmation événementielle : de l'étape conceptuelle à l'étape d'implantation.</hdoc:title>
-         <hdoc:editor>Intereditions</hdoc:editor>
-         <hdoc:year>1996</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Freinet64">
-      <hdoc:misc>
-         <hdoc:author>Freinet C.</hdoc:author>
-         <hdoc:title>Moderniser l'école</hdoc:title>
-         <hdoc:editor>Armand Colin</hdoc:editor>
-         <hdoc:year>1964</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Gardarin99">
-      <hdoc:misc>
-         <hdoc:author>Gardarin Georges</hdoc:author>
-         <hdoc:title>Bases de données : objet et relationnel</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>1999</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Gil00">
-      <hdoc:misc>
-         <hdoc:author>Gil Philippe</hdoc:author>
-         <hdoc:title>e-formation : NTIC et reengineering de la formation professionnelle</hdoc:title>
-         <hdoc:editor>Dunod</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="ChezGligli">
-      <hdoc:misc>
-         <hdoc:url>http://www.chezgligli.net/</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Goglin01">
-      <hdoc:misc>
-         <hdoc:author>Jean-François Goglin</hdoc:author>
-         <hdoc:title>La construction du datawarehouse : du datamart au dataweb</hdoc:title>
-         <hdoc:editor>Hermes</hdoc:editor>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">, 2ème édition,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Goglin2001">
-      <hdoc:misc>
-         <hdoc:title>La construction du datawarehouse : du datamart au dataweb</hdoc:title>
-         <hdoc:note type_of="note">Goglin J.-F. 2001, 1998 Hermes, 2ème édition.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Goody79">
-      <hdoc:misc>
-         <hdoc:author>Goody Jack</hdoc:author>
-         <hdoc:title>La raison graphique : La domestication de la pensée sauvage</hdoc:title>
-         <hdoc:editor>Les éditions de minuit</hdoc:editor>
+         <hdoc:author>Goody, Jack </hdoc:author>
+         <hdoc:author>Bazin, Jean </hdoc:author>
+         <hdoc:author>Bensa, Alban</hdoc:author>
+         <hdoc:note type_of="date"> </hdoc:note>
          <hdoc:year>1979</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Gruber1993">
-      <hdoc:misc>
-         <hdoc:author>Thomas R. Gruber</hdoc:author>
-         <hdoc:title>Formal ontology in conceptual analysis and knowledge representation</hdoc:title>
-         <hdoc:editor>Kluwer Academic Publishers</hdoc:editor>
-         <hdoc:year>1993</hdoc:year>
-         <hdoc:note type_of="note">
-					 Chapter: Towards principles for the design of ontologies used for knowledge sharing,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="husserl50">
-      <hdoc:misc>
-         <hdoc:author>Husserl Edmund</hdoc:author>
-         <hdoc:title>Idées directrices pour une phénoménologie</hdoc:title>
-         <hdoc:editor>Gallimard</hdoc:editor>
-         <hdoc:year>1950</hdoc:year>
-         <hdoc:note type_of="note">
-					 Ideen I, 1913</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Inmon2002">
-      <hdoc:misc>
-         <hdoc:title>Building the data warehouse</hdoc:title>
-         <hdoc:note type_of="note">Inmon W.-H.2002, 1990 Wiley  Publishing, 3rd edition. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="JouleBeauvois2004">
-      <hdoc:misc>
-         <hdoc:title>Petit traité de manipulation à l'usage des honnêtes gens</hdoc:title>
-         <hdoc:note type_of="note">Robert-Vincent Joule, Jean-Léon Beauvois, Presses Universitaires de Grenoble, 2004.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="JpRAéroweb">
-      <hdoc:misc>
-         <hdoc:url>http://jprendu.club.fr/aeroweb</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Kimbal03">
-      <hdoc:misc>
-         <hdoc:author>Kimball Ralph</hdoc:author>
-         <hdoc:author>Ross Margy</hdoc:author>
-         <hdoc:title>Entrepôts de données : guide pratique de modélisation dimensionnelle</hdoc:title>
-         <hdoc:editor>Vuibert</hdoc:editor>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="KimbalRoss2003">
-      <hdoc:misc>
-         <hdoc:title>Entrepôts de données : guide pratique de modélisation dimensionnelle</hdoc:title>
-         <hdoc:note type_of="note">
-						Kimball R Ross M.2003 Vuibert.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="KimballCaserta2004">
-      <hdoc:misc>
-         <hdoc:title>The Data Warehouse ETL Toolkit</hdoc:title>
-         <hdoc:note type_of="note">Kimball R Caserta J.2004 Wiley Publishing.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Kimballetal2008">
-      <hdoc:misc>
-         <hdoc:title>The Data Warehouse Lifecycle Toolkit</hdoc:title>
-         <hdoc:note type_of="note">Kimball R Ross M Thornthwaite W Mundy J Becker B.2008, 1998 Wiley Publishing, second edition.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="KimballRoss2008">
-      <hdoc:misc>
-         <hdoc:title>The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling</hdoc:title>
-         <hdoc:note type_of="note">Kimball R Ross M.2008, 2002 Wiley Publishing, second edition.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Lerdof01">
-      <hdoc:misc>
-         <hdoc:author>Lerdof Rasmus</hdoc:author>
-         <hdoc:title>PHP précis et concis</hdoc:title>
-         <hdoc:editor>O'REILLY</hdoc:editor>
-         <hdoc:year>2002</hdoc:year>
-         <hdoc:note type_of="note">
-					 ISBN 2-84177-249-7. France</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Levie2006">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Levie F.2006 L'homme qui voulait classer le monde Paul Otlet et le Mundaneum. Les impressions nouvelles.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Linard96">
-      <hdoc:misc>
-         <hdoc:author>Linard Monique</hdoc:author>
-         <hdoc:title>Des machines et des hommes : Apprendre avec les nouvelles technologies</hdoc:title>
-         <hdoc:editor>L'Harmattan</hdoc:editor>
-         <hdoc:year>1996</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Mata03">
-      <hdoc:misc>
-         <hdoc:author>Mata-Toledo Ramon A.</hdoc:author>
-         <hdoc:author>Cushman Pauline K.</hdoc:author>
-         <hdoc:title>Programmation SQL</hdoc:title>
-         <hdoc:editor>Ediscience</hdoc:editor>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Mathieu00">
-      <hdoc:misc>
-         <hdoc:author>Mathieu Philippe</hdoc:author>
-         <hdoc:title>Des bases de données à l'internet</hdoc:title>
-         <hdoc:editor>Vuibert</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Messager2009">
-      <hdoc:misc>
-         <hdoc:author>Messager-Rota Véronique</hdoc:author>
-         <hdoc:title>Gestion de projet : Vers les méthodes agiles</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2007</hdoc:year>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Michard97">
-      <hdoc:misc>
-         <hdoc:author>Michard Alain</hdoc:author>
-         <hdoc:title>XML, langage et applications</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>1997</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Muller98">
-      <hdoc:misc>
-         <hdoc:author>Muller P.A.</hdoc:author>
-         <hdoc:title>Modélisation objet avec UML</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>1998</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Nanard01">
-      <hdoc:misc>
-         <hdoc:author>Nanard M</hdoc:author>
-         <hdoc:author>Nanard J</hdoc:author>
-         <hdoc:title>EadGen, un environnement ouvert de production en ligne basé sur XML et XSL-T</hdoc:title>
-         <hdoc:note type_of="note">
-					 TICE'2002. 2002, Lyon, France. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="O">
-      <hdoc:misc>
-         <hdoc:author>Crozat Stéphane</hdoc:author>
-         <hdoc:title>Méthode d'évaluation de la composition multimédia des didacticiels</hdoc:title>
-         <hdoc:note type_of="note">  p. DEA en Contrôle Des Systèmes. Université de Technologie de Compiègne. 1998. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="OASIS2003">
-      <hdoc:misc>
-         <hdoc:author>James Clark, John Cowan, Murata Makoto</hdoc:author>
-         <hdoc:title>RELAX NG Compact Syntax Tutorial</hdoc:title>
-         <hdoc:editor>OASIS</hdoc:editor>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:url>http://www.relaxng.org/compact-tutorial-20030326.html</hdoc:url>
-         <hdoc:note type_of="note">
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Olivia">
-      <hdoc:misc>
-         <hdoc:url>http://olivia.aviation-civile.gouv.fr</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Otlet1934">
-      <hdoc:misc>
-         <hdoc:url>http://search.ugent.be/meercat/x/view/rug01/000990276</hdoc:url>
-         <hdoc:note type_of="note">Otlet P.1934 Traité de documentation le livre sur le livre, théorie et pratique. Editions Mundaneum, Bruxelles.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Pedauque03">
-      <hdoc:misc>
-         <hdoc:author>Roger T. Pédauque</hdoc:author>
-         <hdoc:title>Document : forme, signe et médium, les re-formulations du numérique</hdoc:title>
-         <hdoc:editor>premier texte</hdoc:editor>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:url>http://archivesic.ccsd.cnrs.fr/sic_00000511</hdoc:url>
-         <hdoc:note type_of="note">,]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Pedauque05">
-      <hdoc:misc>
-         <hdoc:author>Roger T. Pédauque</hdoc:author>
-         <hdoc:title>Le texte en jeu : Permanence et transformations du document</hdoc:title>
-         <hdoc:editor>second texte</hdoc:editor>
-         <hdoc:year>2005</hdoc:year>
-         <hdoc:url>http://archivesic.ccsd.cnrs.fr/sic_00001401</hdoc:url>
-         <hdoc:note type_of="note">,]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Pedauque06">
-      <hdoc:misc>
-         <hdoc:author>Roger T. Pédauque</hdoc:author>
-         <hdoc:title>Document et modernités</hdoc:title>
-         <hdoc:editor>troisième texte</hdoc:editor>
-         <hdoc:year>2006</hdoc:year>
-         <hdoc:url>http://archivesic.ccsd.cnrs.fr/sic_00001741</hdoc:url>
-         <hdoc:note type_of="note">,]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Cartesdaérodromes">
-      <hdoc:misc>
-         <hdoc:url>http://www.utc.fr/ics/~stc/perso/ppl/divers/cartes.php</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Piaget67">
-      <hdoc:misc>
-         <hdoc:author>Piaget Jean</hdoc:author>
-         <hdoc:title>La psychologie de l'intelligence</hdoc:title>
-         <hdoc:editor>Armand Collin</hdoc:editor>
-         <hdoc:year>1967</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="pilotlistorg">
-      <hdoc:misc>
-         <hdoc:url>http://www.pilotlist.org/</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Pratt01">
-      <hdoc:misc>
-         <hdoc:author>Pratt Philip J.</hdoc:author>
-         <hdoc:title>Initiation à SQL : Cours et exercices corrigés</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">
-						
-				 Collection Noire. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Roques04">
-      <hdoc:misc>
-         <hdoc:author>Roques Pascal</hdoc:author>
-         <hdoc:author>Vallée Franck</hdoc:author>
-         <hdoc:title>UML 2 en action : De l'analyse des besoins à la conception J2EE</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:note type_of="note">
-					 ISBN 2-212-11462-13ème édition Paris 385 p. architecte logiciel. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Roques08">
-      <hdoc:misc>
-         <hdoc:author>Pascal Roques</hdoc:author>
-         <hdoc:title>UML 2 : Modéliser une application web</hdoc:title>
-         <hdoc:editor>4e édition, Les cahiers du programmeur, Eyrolles</hdoc:editor>
-         <hdoc:year>2008</hdoc:year>
-         <hdoc:note type_of="note">, ISBN 978-2212123890]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Roques09">
-      <hdoc:misc>
-         <hdoc:author>Pascal Roques</hdoc:author>
-         <hdoc:title>UML 2 par la pratique</hdoc:title>
-         <hdoc:note type_of="note">, 7e édition, Eyrolles, 2009ISBN 978-2212125658]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Placedelaudiodansundispositifhypermédia">
-      <hdoc:misc>
-         <hdoc:url>http://www.ina.fr/sites/ina.fr/medias/upload/grm/webradio/audio_hypermedia/index.html</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="SerdaLab2007">
-      <hdoc:misc>
-         <hdoc:author>Serda Lab</hdoc:author>
-         <hdoc:title>Documents et flux numériques : Marché et tendances 2007-2008</hdoc:title>
-         <hdoc:editor>Archimag</hdoc:editor>
-         <hdoc:note type_of="note">
-					2007</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Shea06">
-      <hdoc:misc>
-         <hdoc:author>Dave Shea, Molly Holzschlag</hdoc:author>
-         <hdoc:title>Le Zen des CSS</hdoc:title>
-         <hdoc:editor> Eyrolles</hdoc:editor>
-         <hdoc:year>2006</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="SIA">
-      <hdoc:misc>
-         <hdoc:url>http://www.sia.aviation-civile.gouv.fr/</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="GuideVFRenligneSIA">
-      <hdoc:misc>
-         <hdoc:url>http://www.sia.aviation-civile.gouv.fr/asp/texteregle/texteregle-c.asp?ordre_0=2&amp;ordre_1=1&amp;lang=fr</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="SIAAltlasVACenligne">
-      <hdoc:misc>
-         <hdoc:url>http://www.sia.aviation-civile.gouv.fr/html/frameset_aip_fr.htm</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="SimulationdefonctionnementdunVOR">
-      <hdoc:misc>
-         <hdoc:url>http://www.visi.com/~mim/nav/</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Skinner79">
-      <hdoc:misc>
-         <hdoc:author>Skinner B.F.</hdoc:author>
-         <hdoc:title>Pour une science du comportement : Le behaviorisme</hdoc:title>
-         <hdoc:editor>Delachaux et Niestlé</hdoc:editor>
-         <hdoc:year>1979</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Smile2012">
-      <hdoc:misc>
-         <hdoc:title>Décisionnel : le meilleur des solutions open source</hdoc:title>
-         <hdoc:url>http://www.smile.fr/Livres-blancs/ERP-et-decisionnel/Le-decisionnel-open-source/</hdoc:url>
-         <hdoc:note type_of="note">Smile2012, 2006</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Soulez85">
-      <hdoc:misc>
-         <hdoc:author>Soulez Antonia</hdoc:author>
-         <hdoc:title>Manifeste du Cercle de Vienne et autres récits</hdoc:title>
-         <hdoc:editor>Presses Universitaires de France</hdoc:editor>
-         <hdoc:year>1985</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Soutou02">
-      <hdoc:misc>
-         <hdoc:author>Soutou Christian</hdoc:author>
-         <hdoc:title>De UML à SQL : Conception de bases de données</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2002</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Stiegler94a">
-      <hdoc:misc>
-         <hdoc:author>Stiegler Bernard</hdoc:author>
-         <hdoc:title>La technique et le temps, Tome I : La faute d'Épiméthée</hdoc:title>
-         <hdoc:editor>Galilée</hdoc:editor>
-         <hdoc:year>1994</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Stiegler94b">
-      <hdoc:misc>
-         <hdoc:author>Stiegler Bernard</hdoc:author>
-         <hdoc:title>La technique et le temps, Tome II : La désorientation</hdoc:title>
-         <hdoc:editor>Galilée</hdoc:editor>
-         <hdoc:year>1994</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Tardieu83">
-      <hdoc:misc>
-         <hdoc:author>Tardieu H.</hdoc:author>
-         <hdoc:author>Rochfeld A.</hdoc:author>
-         <hdoc:author>Colleti R.</hdoc:author>
-         <hdoc:title>Méthode MERISE Tome 1 : Principes et outils</hdoc:title>
-         <hdoc:editor>Les Editions d'Organisation</hdoc:editor>
-         <hdoc:year>1983</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Tardieu85">
-      <hdoc:misc>
-         <hdoc:author>Tardieu H.</hdoc:author>
-         <hdoc:author>Rochfeld A.</hdoc:author>
-         <hdoc:author>Colleti R.</hdoc:author>
-         <hdoc:author>Panet G.</hdoc:author>
-         <hdoc:author>Vahee G.</hdoc:author>
-         <hdoc:title>Méthode MERISE Tome 2 : Démarche et pratiques</hdoc:title>
-         <hdoc:editor>Les Editions d'Organisation</hdoc:editor>
-         <hdoc:year>1985</hdoc:year>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Thibaud03">
-      <hdoc:misc>
-         <hdoc:author>Thibaud Cyril</hdoc:author>
-         <hdoc:title>MySQL 4 : Installation, mise en oeuvre et programmation</hdoc:title>
-         <hdoc:editor>Editions ENI</hdoc:editor>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:note type_of="note">
-					 Collection Ressources Informatiques. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Thorndike13">
-      <hdoc:misc>
-         <hdoc:author>Thorndike Edward L.</hdoc:author>
-         <hdoc:title>The Psychology of Learning</hdoc:title>
-         <hdoc:year>1913</hdoc:year>
-         <hdoc:note type_of="note">
-					 Educational Psychology. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="TLFi">
-      <hdoc:misc>
-         <hdoc:title>Trésor de la langue française informatisé</hdoc:title>
-         <hdoc:url>http://atilf.atilf.fr/dendien/scripts/tlfiv4/showps.exe?p=combi.htm</hdoc:url>
-         <hdoc:note type_of="note">, </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Turing36">
-      <hdoc:misc>
-         <hdoc:author>Turing Alan</hdoc:author>
-         <hdoc:title>La machine de Turing</hdoc:title>
-         <hdoc:editor>Seuil</hdoc:editor>
-         <hdoc:year>1936</hdoc:year>
-         <hdoc:note type_of="note">
-					 1995.  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Vlist2000">
-      <hdoc:misc>
-         <hdoc:author>Eric van der Vlist</hdoc:author>
-         <hdoc:title>Guide de référence rapide W3C XML Schema</hdoc:title>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:url>http://xmlfr.org/documentations/tutoriels/001219-0001</hdoc:url>
-         <hdoc:note type_of="note">
-					
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Vlist2000b">
-      <hdoc:misc>
-         <hdoc:author>Eric van der Vlist</hdoc:author>
-         <hdoc:title>Tutoriel XML Schema :Introduction aux schémas W3C XML Schema</hdoc:title>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:url>http://xmlfr.org/documentations/tutoriels/001218-0001</hdoc:url>
-         <hdoc:note type_of="note">
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W24">
-      <hdoc:misc>
-         <hdoc:title>XSL</hdoc:title>
-         <hdoc:url>www.w3.org/Style/XSL</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W25">
-      <hdoc:misc>
-         <hdoc:title>XPath</hdoc:title>
-         <hdoc:url>www.w3.org/TR/xpath</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W29">
-      <hdoc:misc>
-         <hdoc:title>MP3</hdoc:title>
-         <hdoc:url>www.mp3.com</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W3">
-      <hdoc:misc>
-         <hdoc:title>Dublin Core</hdoc:title>
-         <hdoc:url>www.dublincore.org</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W30">
-      <hdoc:misc>
-         <hdoc:title>JPEG</hdoc:title>
-         <hdoc:url>www.iso.ch, 10918-4:1999</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W31">
-      <hdoc:misc>
-         <hdoc:title>MPEG</hdoc:title>
-         <hdoc:url>www.cselt.it/mpeg</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W32">
-      <hdoc:misc>
-         <hdoc:title>DocBook</hdoc:title>
-         <hdoc:url>www.docbook.org</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W33">
-      <hdoc:misc>
-         <hdoc:title>XML Schema</hdoc:title>
-         <hdoc:url>www.w3.org/XML/Schema</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W34">
-      <hdoc:misc>
-         <hdoc:title>Synergie 3R</hdoc:title>
-         <hdoc:url>www.synergie3r.com</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W35">
-      <hdoc:misc>
-         <hdoc:title>PDF</hdoc:title>
-         <hdoc:url>www.adobe.com/products/acrobat/adobepdf.html</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W36">
-      <hdoc:misc>
-         <hdoc:title>EPCEdit</hdoc:title>
-         <hdoc:url>www.epcedit.com</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W37">
-      <hdoc:misc>
-         <hdoc:title>SVG</hdoc:title>
-         <hdoc:url>www.w3.org/Graphics/SVG</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W38">
-      <hdoc:misc>
-         <hdoc:title>Cabri-Géomètre</hdoc:title>
-         <hdoc:url>www.cabri.net</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W3C2000">
-      <hdoc:misc>
-         <hdoc:author>W3C</hdoc:author>
-         <hdoc:title>XML Schema Part 1: Structures</hdoc:title>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:url>http://www.w3.org/TR/2000/CR-xmlschema-1-20001024/</hdoc:url>
-         <hdoc:note type_of="note">
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W4">
-      <hdoc:misc>
-         <hdoc:title>ARIADNE</hdoc:title>
-         <hdoc:url>ariadne.unil.ch</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W5">
-      <hdoc:misc>
-         <hdoc:title>ISO JTC1 SC36</hdoc:title>
-         <hdoc:url>jtc1sc36.org</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W6">
-      <hdoc:misc>
-         <hdoc:title>SCORM</hdoc:title>
-         <hdoc:url>www.adlnet.org</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W7">
-      <hdoc:misc>
-         <hdoc:title>LOM</hdoc:title>
-         <hdoc:url>grouper.ieee.org/groups/ltsc/index.html</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W8">
-      <hdoc:misc>
-         <hdoc:title>AFNOR</hdoc:title>
-         <hdoc:url>www.afnor.fr</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="W9">
-      <hdoc:misc>
-         <hdoc:title>CEN</hdoc:title>
-         <hdoc:url>www.cenorm.be</hdoc:url>
-         <hdoc:note type_of="note">2001 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Williams01">
-      <hdoc:misc>
-         <hdoc:author>Kevin Williams, Michael Brundage, Patrick Dengler, Jeff Gabriel, Andy Hoskinson, Michael Kay, Thomas Maxwell, Marcello Ochoa, Johnny Papa, Mohan Vanmane</hdoc:author>
-         <hdoc:title>XML et les bases de données</hdoc:title>
-         <hdoc:editor>Eyrolles</hdoc:editor>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Winograd89">
-      <hdoc:misc>
-         <hdoc:author>Winograd Terry</hdoc:author>
-         <hdoc:author>Flores Fernando</hdoc:author>
-         <hdoc:title>L'intelligence artificielle en question</hdoc:title>
-         <hdoc:editor>Presses Universitaires de France</hdoc:editor>
-         <hdoc:year>1989</hdoc:year>
-         <hdoc:note type_of="note">
-					, </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Wong00">
-      <hdoc:misc>
-         <hdoc:author>Wong Clinton</hdoc:author>
-         <hdoc:title>HTTP précis et concis</hdoc:title>
-         <hdoc:editor>O'REILLY</hdoc:editor>
-         <hdoc:year>2000</hdoc:year>
-         <hdoc:note type_of="note">
-					 ISBN 2-84177-1</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="WW3">
-      <hdoc:misc>
-         <hdoc:author>DCMI</hdoc:author>
-         <hdoc:title>Dublin Core Metadata Element Set</hdoc:title>
-         <hdoc:editor/>
-         <hdoc:year>1998</hdoc:year>
-         <hdoc:note type_of="note">
-					  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="WW6">
-      <hdoc:misc>
-         <hdoc:author>ADL </hdoc:author>
-         <hdoc:title>Sharable Content Object Reference Model</hdoc:title>
-         <hdoc:editor/>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="WW7">
-      <hdoc:misc>
-         <hdoc:author>IEEE </hdoc:author>
-         <hdoc:title>Learning Object Metadata</hdoc:title>
-         <hdoc:editor/>
-         <hdoc:year>2001</hdoc:year>
-         <hdoc:note type_of="note">  </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_accessdeveloppezcom">
-      <hdoc:misc>
-         <hdoc:author>www.developpez.com</hdoc:author>
-         <hdoc:title>Les meilleurs cours, tutoriels et docs sur Access</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:url>http://access.developpez.com/</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_accessdeveloppezcomfaq">
-      <hdoc:misc>
-         <hdoc:author>www.developpez.com</hdoc:author>
-         <hdoc:title>Access FAQ</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:url>http://access.developpez.com/faq/</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_aiimorg">
-      <hdoc:misc>
-         <hdoc:author>AIIM</hdoc:author>
-         <hdoc:title>What is ECM ?</hdoc:title>
-         <hdoc:url>http://www.aiim.org/about-ecm.asp</hdoc:url>
-         <hdoc:note type_of="note">
-					]</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_antapacheorg">
-      <hdoc:misc>
-         <hdoc:author>Apache</hdoc:author>
-         <hdoc:title>The Apache Ant Project</hdoc:title>
-         <hdoc:year>2011</hdoc:year>
-         <hdoc:url>http://ant.apache.org</hdoc:url>
-         <hdoc:note type_of="note">, consulté en</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_clever-agecom">
-      <hdoc:misc>
-         <hdoc:author>Nicolas Hoizey</hdoc:author>
-         <hdoc:title> Faisons le point sur les langages de schéma XML</hdoc:title>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://www.clever-age.com/veille/clever-link/faisons-le-point-sur-les-langages-de-schema-xml.html</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_commentcamarchenet">
-      <hdoc:misc>
-         <hdoc:author>Pillou Jean-François</hdoc:author>
-         <hdoc:title>Comment ça marche ? Encyclopédie informatique libre</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2005</hdoc:year>
-         <hdoc:url>www.commentcamarche.net</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_developpezcom">
-      <hdoc:misc>
-         <hdoc:author>DEVELOPPEZ LLC</hdoc:author>
-         <hdoc:title>Dveloppez.com, club des développeurs</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2006</hdoc:year>
-         <hdoc:url>www.developpez.com</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_developpezcomhcesbronlavau">
-      <hdoc:misc>
-         <hdoc:author>Cesbron-Lavau Henry</hdoc:author>
-         <hdoc:title>Les transactions</hdoc:title>
-         <hdoc:url>http://www.developpez.com/hcesbronlavau/Transactions.htm</hdoc:url>
-         <hdoc:note type_of="note">
-					 2002. </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_dia">
-      <hdoc:misc>
-         <hdoc:title>Dia</hdoc:title>
-         <hdoc:url>http://live.gnome.org/Dia</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_enstfrjld">
-      <hdoc:misc>
-         <hdoc:author>Dessalles Jean-Louis</hdoc:author>
-         <hdoc:title>Introduction aux cours d'Intelligence Artificielle</hdoc:title>
-         <hdoc:url>www.perso.enst.fr/~jld/cours/domin/introi01.htm</hdoc:url>
-         <hdoc:note type_of="note">
-					2004 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_frselfhtmlorg">
-      <hdoc:misc>
-         <hdoc:author>SELFHTML</hdoc:author>
-         <hdoc:title>Formation XML</hdoc:title>
-         <hdoc:year>2003</hdoc:year>
-         <hdoc:url>http://fr.selfhtml.org/xml/</hdoc:url>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_gchagnonfr">
-      <hdoc:misc>
-         <hdoc:author>Gilles Chagnon</hdoc:author>
-         <hdoc:title>Cours de XML - Initiation aux Schema XML</hdoc:title>
-         <hdoc:year>2011</hdoc:year>
-         <hdoc:url>http://www.gchagnon.fr/cours/xml/schema.html</hdoc:url>
-         <hdoc:note type_of="note">,
-					 version 1.41,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_granddictionnairecom">
-      <hdoc:misc>
-         <hdoc:url>http://www.granddictionnaire.com/</hdoc:url>
-         <hdoc:note type_of="note">
-						
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_int-evryfr">
-      <hdoc:misc>
-         <hdoc:author>Defude Bruno</hdoc:author>
-         <hdoc:title>Tutoriel  de bases de données relationnelles de l'INT Evry</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2009</hdoc:year>
-         <hdoc:url>http://www-inf.int-evry.fr/COURS/BD/</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_isoch1">
-      <hdoc:misc>
-         <hdoc:title>Standard Generalized Markup Language (SGML)</hdoc:title>
-         <hdoc:editor>ISO 8879:1986</hdoc:editor>
-         <hdoc:url>www.iso.ch, ISO 8879:1986</hdoc:url>
-         <hdoc:note type_of="note">
-					 1986.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_journaldunetcom1">
-      <hdoc:misc>
-         <hdoc:author>Morlon Jérôme</hdoc:author>
-         <hdoc:title>UML en 5 étapes</hdoc:title>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://developpeur.journaldunet.com/dossiers/alg_uml.shtml</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_journaldunetcom2">
-      <hdoc:misc>
-         <hdoc:author>Borderie Xavier</hdoc:author>
-         <hdoc:title>Cinq petits conseils pour un schéma UML efficace</hdoc:title>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://developpeur.journaldunet.com/tutoriel/cpt/031013cpt_uml5conseils.shtml</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_journaldunetcom3">
-      <hdoc:misc>
-         <hdoc:author>Crochet-Damais Antoine</hdoc:author>
-         <hdoc:title>MySQL ou PostgreSQL ? Des arguments pour comprendre</hdoc:title>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://solutions.journaldunet.com/0402/040210_postgresql.shtml</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_loriafrroegel1">
-      <hdoc:misc>
-         <hdoc:author>Roegel Denis</hdoc:author>
-         <hdoc:title>Oracle : SQL</hdoc:title>
-         <hdoc:year>1999</hdoc:year>
-         <hdoc:url>http://www.loria.fr/~roegel/cours/iut/oracle-sql.pdf</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_loriafrroegel2">
-      <hdoc:misc>
-         <hdoc:author>Roegel Denis</hdoc:author>
-         <hdoc:title>Le langage procédural PL/SQL</hdoc:title>
-         <hdoc:year>1999</hdoc:year>
-         <hdoc:url>http://www.loria.fr/~roegel/cours/iut/oracle-plsql.pdf</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_manuelphpcom">
-      <hdoc:misc>
-         <hdoc:author>Manuel PHP.com</hdoc:author>
-         <hdoc:title>PosgreSQL</hdoc:title>
-         <hdoc:note type_of="date">consulté le 04-</hdoc:note>
-         <hdoc:year>2008</hdoc:year>
-         <hdoc:url>http://www.manuelphp.com/php/ref.pgsql.php</hdoc:url>
-         <hdoc:note type_of="note">
-					
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_mhubichedeveloppezcom">
-      <hdoc:misc>
-         <hdoc:author>Hubiche Maxence</hdoc:author>
-         <hdoc:title>Comprendre les jointures dans Access</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2009</hdoc:year>
-         <hdoc:url>http://mhubiche.developpez.com/Access/tutoJointures/</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_objecteering">
-      <hdoc:misc>
-         <hdoc:title>Objecteering software</hdoc:title>
-         <hdoc:url>www.objecteering.com</hdoc:url>
-         <hdoc:note type_of="note">
-					2002-septembre </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_postgresqlfrorg">
-      <hdoc:misc>
-         <hdoc:author>docs.postgresqlfr.org</hdoc:author>
-         <hdoc:title>Types de données</hdoc:title>
-         <hdoc:note type_of="date">consulté le 04-</hdoc:note>
-         <hdoc:year>2008</hdoc:year>
-         <hdoc:url>http://docs.postgresqlfr.org/8.1/datatype.html</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_scenari-platformorg02">
-      <hdoc:misc>
-         <hdoc:author>Sylvain Spinelli</hdoc:author>
-         <hdoc:title>WYSIWYM (what you see is what you MEAN)</hdoc:title>
-         <hdoc:year>2006</hdoc:year>
-         <hdoc:url>http://scenari-platform.org/trac/scenari/wiki/WYSIWYM</hdoc:url>
-         <hdoc:note type_of="note">,</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_stanfordedu">
-      <hdoc:misc>
-         <hdoc:author>Stanford University</hdoc:author>
-         <hdoc:title>Notes on the Oracle DBMS</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://www-db.stanford.edu/~ullman/fcdb/oracle.html</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_supelecfryb">
-      <hdoc:misc>
-         <hdoc:author>Bourda Yolaine</hdoc:author>
-         <hdoc:title>Bases de Données Relationnelles et Systèmes de Gestion de Bases de Données Relationnels, le Langage SQL</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2009</hdoc:year>
-         <hdoc:url>http://wwwsi.supelec.fr/~yb/poly_bd/</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_sybase">
-      <hdoc:misc>
-         <hdoc:title>Sybase PowerDesigner</hdoc:title>
-         <hdoc:url>http://www.sybase.com/products/enterprisemodeling</hdoc:url>
-         <hdoc:note type_of="note">
-					 consulté en 2002.</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_ualbertaca">
-      <hdoc:misc>
-         <hdoc:author>University of Alberta</hdoc:author>
-         <hdoc:title>Computing Science 291/391 : Laboratory Manual</hdoc:title>
-         <hdoc:year>1995</hdoc:year>
-         <hdoc:url>http://ugweb.cs.ualberta.ca/~c391/manual/title.html</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_umlfreefr">
-      <hdoc:misc>
-         <hdoc:title>UML en Français</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2002</hdoc:year>
-         <hdoc:url>uml.free.fr</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_univ-lyon2frjdarmont">
-      <hdoc:misc>
-         <hdoc:author>Darmont Jérôme</hdoc:author>
-         <hdoc:title>Tutoriel SQL</hdoc:title>
-         <hdoc:url>http://eric.univ-lyon2.fr/~jdarmont/tutoriel-sql/</hdoc:url>
-         <hdoc:note type_of="note">
-					consulté en 2014 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3architectcom">
-      <hdoc:misc>
-         <hdoc:author>Gaillard Fabrice</hdoc:author>
-         <hdoc:title>Les bases de données objet</hdoc:title>
-         <hdoc:note type_of="date">consulté en </hdoc:note>
-         <hdoc:year>2004</hdoc:year>
-         <hdoc:url>http://www.w3architect.com/static/people/fgaillard/these/04-LesSGBDO.html</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3corg">
-      <hdoc:misc>
-         <hdoc:title>World Wide Web Consortium</hdoc:title>
-         <hdoc:url>http://www.w3.org</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3corgXML">
-      <hdoc:misc>
-         <hdoc:title>XML</hdoc:title>
-         <hdoc:url>http://www.w3.org/XML</hdoc:url>
-         <hdoc:note type_of="note">
-					 </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w3corgAudioVideo">
-      <hdoc:misc>
-         <hdoc:title>SMIL</hdoc:title>
-         <hdoc:url>www.w3.org/AudioVideo</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3corgstandardsxml">
-      <hdoc:misc>
-         <hdoc:author>W3C</hdoc:author>
-         <hdoc:title>XML Essentials</hdoc:title>
-         <hdoc:year>2009</hdoc:year>
-         <hdoc:url>http://www.w3.org/standards/xml/core</hdoc:url>
-         <hdoc:note type_of="note">
-					 consulté en</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3corgTR2008REC-xml">
-      <hdoc:misc>
-         <hdoc:author>W3C</hdoc:author>
-         <hdoc:title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</hdoc:title>
-         <hdoc:year>2008</hdoc:year>
-         <hdoc:url>http://www.w3.org/TR/2008/REC-xml-20081126/</hdoc:url>
-         <hdoc:note type_of="note">
-					 consulté en</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_w3corghtml">
-      <hdoc:misc>
-         <hdoc:title>HTML</hdoc:title>
-         <hdoc:url>www.w3.org/MarkUp</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="w_wikipediaA">
-      <hdoc:misc>
-         <hdoc:title> Single Source Publishing</hdoc:title>
-         <hdoc:author>Wikipédia</hdoc:author>
-         <hdoc:year>2008</hdoc:year>
-         <hdoc:url>http://en.wikipedia.org/wiki/Single_source_publishing</hdoc:url>
-         <hdoc:note type_of="note">
-					 consulté en mai ] </hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="XSLT1999XSLT">
-      <hdoc:misc>
-         <hdoc:title>XSLT transformations</hdoc:title>
-         <hdoc:year>1999</hdoc:year>
-         <hdoc:url>http://www.w3.org/Style/XSL/</hdoc:url>
-         <hdoc:note type_of="note">
-					</hdoc:note>
-      </hdoc:misc>
-   </hdoc:entry>
-   <hdoc:entry id="Zilio2004">
-      <hdoc:misc>
-         <hdoc:note type_of="note">Jean Zilio, Le guide pratique du pilotage, Éditions Vario, 2004.</hdoc:note>
+         <hdoc:title>La raison graphique: la domestication de la pensée sauvage.</hdoc:title>
+         <hdoc:note type_of="note">
+                                 
+
+
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 
+                                  
+                                  
+                                  
+                                   
+                                   
+                                 
+                                  
+                                 
+                                 
+                                                                
+                                  
+                                      
+                             </hdoc:note>
       </hdoc:misc>
    </hdoc:entry>
 </hdoc:file>

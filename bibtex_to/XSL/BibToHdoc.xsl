@@ -3,7 +3,9 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:oldmods="http://bibtexml.sf.net/"
     xmlns:myns="http://www.utc.fr/ics/hdoc/bibtexXm">
-    
+    <xsl:template match="oldmods:metadata" priority="6">
+        
+    </xsl:template>
     <xsl:template match="node()|@*" priority="3">
         <xsl:copy>
             <xsl:apply-templates select="node()|@*">
